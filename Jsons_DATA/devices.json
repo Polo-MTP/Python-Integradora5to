@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "tankId": 1,
+        "name": "temperatura",
+        "createdAt": null,
+        "updatedAt": null
+    },
+    {
+        "id": 3,
+        "tankId": 1,
+        "name": "ph",
+        "createdAt": null,
+        "updatedAt": null
+    }
+]
