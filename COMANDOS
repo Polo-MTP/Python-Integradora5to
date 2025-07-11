@@ -1,0 +1,5 @@
+EJECUTE ESTOS COMANDOS PARA EL CORRECTO FUNCIONAMIENTO
+
+python -m pip install "pymongo[srv]"
+
+pip install python-dotenv
