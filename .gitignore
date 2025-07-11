@@ -1,0 +1,45 @@
+# Entornos virtuales
+.env/
+.venv/
+env/
+venv/
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración y dependencias
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Logs y pruebas
+*.log
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Archivos de configuración sensibles
+.env
+*.sqlite3
+*.db
+local_settings.py
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Otros
+.DS_Store
+Thumbs.db
