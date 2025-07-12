@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 20.7,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:19.239701",
+        "synced": true
+    },
+    {
+        "id": 2,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 24.9,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:23.798939",
+        "synced": true
+    },
+    {
+        "id": 3,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 27.3,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:28.807742",
+        "synced": true
+    },
+    {
+        "id": 4,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 25.8,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:33.817204",
+        "synced": true
+    },
+    {
+        "id": 5,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 23.0,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:38.830395",
+        "synced": true
+    },
+    {
+        "id": 6,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 27.2,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:43.839584",
+        "synced": true
+    },
+    {
+        "id": 7,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 24.4,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:48.848762",
+        "synced": true
+    },
+    {
+        "id": 8,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 27.8,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:53.858376",
+        "synced": true
+    },
+    {
+        "id": 9,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 22.3,
+        "unit": "N/A",
+        "date": "2025-07-12T12:15:58.867268",
+        "synced": true
+    },
+    {
+        "id": 10,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 20.9,
+        "unit": "N/A",
+        "date": "2025-07-12T12:16:03.876574",
+        "synced": true
+    },
+    {
+        "id": 11,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 24.0,
+        "unit": "N/A",
+        "date": "2025-07-12T12:16:08.889718",
+        "synced": true
+    },
+    {
+        "id": 12,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 26.5,
+        "unit": "N/A",
+        "date": "2025-07-12T12:16:13.899055",
+        "synced": false
+    },
+    {
+        "id": 13,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 29.2,
+        "unit": "N/A",
+        "date": "2025-07-12T12:16:18.908275",
+        "synced": false
+    },
+    {
+        "id": 14,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 24.2,
+        "unit": "N/A",
+        "date": "2025-07-12T12:16:23.917575",
+        "synced": false
+    },
+    {
+        "id": 15,
+        "id_tank": 1,
+        "sensor": "temp",
+        "value": 28.7,
+        "unit": "N/A",
+        "date": "2025-07-12T12:16:28.926728",
+        "synced": false
+    }
+]
