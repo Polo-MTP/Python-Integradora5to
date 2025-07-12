@@ -3,7 +3,6 @@ from pymongo.server_api import ServerApi
 import os
 from dotenv import load_dotenv
 
-# 📦 Cargar variables del archivo .env
 load_dotenv()
 
 class MongoDb:
@@ -56,7 +55,6 @@ class MongoDb:
         except Exception as e:
             print(f"❌ Error al insertar documentos: {e}")
 
-# 🚀 Punto de entrada
 if __name__ == "__main__":
     try:
         mongo = MongoDb()

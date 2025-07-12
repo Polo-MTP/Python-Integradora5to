@@ -4,6 +4,8 @@ import requests
 import os
 from Clases.lista import Lista
 from Clases.device import Device
+import serial
+import time
 
 from dotenv import load_dotenv
 
@@ -36,3 +38,18 @@ def guardar_dispositivos_json(dispositivos: list, archivo: str = 'Jsons_DATA/dev
     os.makedirs(os.path.dirname(archivo), exist_ok=True)
     lista_dispositivos.guardar(archivo)
     print(f"✅ Dispositivos guardados exitosamente en {archivo}")
+
+def leer_datos_serial(puerto='COM3', baudios=9600, timeout=2):
+    try:
+        arduino = serial.Serial(puerto, baudios, timeout=timeout)
+        time.sleep(2)  
+
+        while True:
+            if arduino.in_waiting > 0:
+                linea = arduino.readline().decode('utf-8').strip()
+                print(f'Dato recibido: {linea}')
+                return linea  
+
+    except serial.SerialException as e:
+        print(f"Error de conexión serial: {e}")
+        return None

@@ -5,3 +5,5 @@ python -m pip install "pymongo[srv]"
 pip install python-dotenv
 
 pip install requests
+
+pip install pyserial

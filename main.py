@@ -13,5 +13,9 @@ def main():
     else:
         print("⚠️ No se obtuvieron dispositivos.")
 
+dato = leer_datos_serial('COM6')  
+if dato:
+    print("Lectura del Arduino:", dato)
+
 if __name__ == "__main__":
     main()
