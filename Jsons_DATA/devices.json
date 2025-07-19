@@ -2,8 +2,9 @@
     {
         "id": 1,
         "tankId": 1,
-        "name": "temp",
-        "createdAt": null,
-        "updatedAt": null
+        "code": "temp/1",
+        "name": "temperatura",
+        "createdAt": "2025-07-19T01:37:23.000-06:00",
+        "updatedAt": "2025-07-19T01:37:23.000-06:00"
     }
 ]

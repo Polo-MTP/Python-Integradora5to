@@ -1,7 +1,8 @@
 class Device:
-    def __init__(self, id, tankId, name, createdAt=None, updatedAt=None):
+    def __init__(self, id, tankId, code, name, createdAt=None, updatedAt=None):
         self.id = id
         self.tankId = tankId
+        self.code= code
         self.name = name
         self.createdAt = createdAt
         self.updatedAt = updatedAt
