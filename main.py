@@ -21,6 +21,7 @@ def main():
 
 
  leer_serial_y_guardar(puerto="COM6")  
+ 
 
 if __name__ == "__main__":
     main()

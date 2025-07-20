@@ -11,7 +11,6 @@ def cargar_mapa_dispositivos(path="Jsons_DATA/devices.json"):
     return {d["name"]: d["id"] for d in lista}
 
 def cargar_datos_existentes(archivo_salida):
-    """Carga los datos existentes del archivo JSON"""
     try:
         with open(archivo_salida, "r", encoding="utf-8") as f:
             contenido = f.read().strip()
@@ -26,7 +25,6 @@ def cargar_datos_existentes(archivo_salida):
         return []
 
 def obtener_siguiente_id(datos_existentes):
-    """Obtiene el siguiente ID disponible"""
     if not datos_existentes:
         return 1
     return max(dato.get("id", 0) for dato in datos_existentes) + 1
@@ -55,10 +53,8 @@ def leer_serial_y_guardar(puerto='COM3', baudios=9600, archivo_salida="Jsons_DAT
                         
                         fecha = datetime.now().isoformat()
                         
-                        # Cargar datos existentes
                         datos_existentes = cargar_datos_existentes(archivo_salida)
                         
-                        # Crear nuevo dato
                         nuevo_dato = {
                             "id": obtener_siguiente_id(datos_existentes),
                             "id_tank": 1,
@@ -69,10 +65,8 @@ def leer_serial_y_guardar(puerto='COM3', baudios=9600, archivo_salida="Jsons_DAT
                             "synced": False
                         }
                         
-                        # Agregar el nuevo dato a la lista existente
                         datos_existentes.append(nuevo_dato)
                         
-                        # Guardar todos los datos (acumulativos)
                         with open(archivo_salida, "w", encoding="utf-8") as f:
                             json.dump(datos_existentes, f, indent=4, ensure_ascii=False)
                         
