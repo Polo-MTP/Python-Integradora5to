@@ -3,6 +3,8 @@
         "id": 1,
         "id_tank": 1,
         "sensor": "temp",
+        "deviceId": 1,
+        "code": "temp/1",
         "value": 20.7,
         "unit": "N/A",
         "date": "2025-07-12T12:15:19.239701",

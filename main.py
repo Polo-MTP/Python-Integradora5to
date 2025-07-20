@@ -1,27 +1,27 @@
-from Clases.metodos import *
-from Clases.arduino import *
+from Clases.metodos import obtener_uuid, obtener_dispositivos, guardar_dispositivos_json
+from Clases.arduino import leer_serial_y_guardar
 
 def main():
-    # uuid = obtener_uuid()
-    # if not uuid:
-    #     print("⚠️ No se encontró UUID en el archivo .env")
-    #     return
+    # Obtener el UUID desde .env
+    uuid = obtener_uuid()
+    if not uuid:
+        print("⚠️ No se encontró UUID en el archivo .env")
+        return
 
-    # dispositivos = obtener_dispositivos(uuid)
+    print(f"🔑 UUID obtenido: {uuid}")
 
-    # if dispositivos:
-    #     guardar_dispositivos_json(dispositivos)
-    # else:
-    #     print("⚠️ No se obtuvieron dispositivos.")
+    dispositivos = obtener_dispositivos(uuid)
 
-# dato = leer_datos_serial('COM6')  
-# if dato:
-#     print("Lectura del Arduino:", dato)
-
+    if dispositivos:
+        guardar_dispositivos_json(dispositivos)
+    else:
+        print("⚠️ No se obtuvieron dispositivos de la API. No se puede continuar.")
+        return
 
 
- leer_serial_y_guardar(puerto="COM6")  
- 
+    # Ahora que tenemos los dispositivos, empezamos a leer el puerto serial
+    # y guardar datos usando el mapa cargado
+    leer_serial_y_guardar(puerto="COM6")
 
 if __name__ == "__main__":
     main()
