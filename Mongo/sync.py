@@ -159,8 +159,8 @@ def sincronizar_a_mongo(archivo_online="Jsons_DATA/data_sensores_online.json"):
             print("\n" + "="*60)
             print("🔄 Iniciando ciclo de sincronización")
             
-                lista_datos = Lista(dataSensores)
-                lista_datos.cargar(archivo_online)
+            lista_datos = Lista(dataSensores)
+            lista_datos.cargar(archivo_online)
             
             stats = sync_manager.obtener_estadisticas(lista_datos)
             
