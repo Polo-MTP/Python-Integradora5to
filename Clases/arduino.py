@@ -2,6 +2,12 @@ import json
 import serial
 import time
 from datetime import datetime
+try:
+    from .http_sender import HTTPSender
+    HTTP_ENABLED = True
+except ImportError:
+    print("⚠️ HTTPSender no disponible. Funcionando solo en modo local.")
+    HTTP_ENABLED = False
 
 # Cargar mapa de sensores desde archivo JSON
 def cargar_mapa_dispositivos(path="Jsons_DATA/devices.json"):
