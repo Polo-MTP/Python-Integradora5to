@@ -143,7 +143,7 @@ def cargar_datos_locales():
     sync_manager = SyncManager()
     return sync_manager.cargar_datos_locales()
 
-def sincronizar_a_mongo():
+def sincronizar_a_mongo(archivo_online="Jsons_DATA/data_sensores_online.json"):
     print("🚀 Iniciando servicio de sincronización con SyncManager...")
     
     sync_manager = SyncManager()
@@ -159,7 +159,8 @@ def sincronizar_a_mongo():
             print("\n" + "="*60)
             print("🔄 Iniciando ciclo de sincronización")
             
-            lista_datos = sync_manager.cargar_datos_locales()
+                lista_datos = Lista(dataSensores)
+                lista_datos.cargar(archivo_online)
             
             stats = sync_manager.obtener_estadisticas(lista_datos)
             
@@ -185,10 +186,12 @@ def sincronizar_a_mongo():
                         print(f"❌ Error al insertar en MongoDB: {e}")
                         print("⚠️ Datos no marcados como sincronizados")
                         
+                    # Borrar datos del archivo online después de subir
+                    with open(archivo_online, "w", encoding="utf-8") as f:
+                        json.dump([], f, indent=4, ensure_ascii=False)
+                    
                 else:
                     print("⏳ No hay datos nuevos para subir a MongoDB.")
-                    
-                    sync_manager.limpiar_datos_antiguos()
         
         except Exception as e:
             print(f"❌ Error durante la sincronización: {e}")

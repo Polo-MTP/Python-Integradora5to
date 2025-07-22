@@ -32,7 +32,7 @@ def obtener_siguiente_id(datos_existentes):
     return max(dato.get("id", 0) for dato in datos_existentes) + 1
 
 # Función para leer una sola vez los datos del Arduino
-def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_local.json", timeout_lectura=10):
+def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json", timeout_lectura=10):
     mapa = cargar_mapa_dispositivos()  # Mapa: { "temp/1": 1, "hmd/1": 2, ... }
     
     try:
@@ -60,11 +60,17 @@ def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/
                             continue
                         
                         fecha = datetime.now().isoformat()
-                        datos_existentes = cargar_datos_existentes(archivo_salida)
+                        datos_online = cargar_datos_existentes(archivo_salida)
+                        datos_historial = cargar_datos_existentes(archivo_historial)
                         
-                        nuevo_dato = {
-                            "id": obtener_siguiente_id(datos_existentes),
-                            "id_tank": mapa[sensor_code],  # Usar el ID del dispositivo del mapa
+                        # ID para archivo online (basado en los datos online)
+                        id_online = obtener_siguiente_id(datos_online)
+                        # ID para archivo historial (basado en el historial completo)
+                        id_historial = obtener_siguiente_id(datos_historial)
+                        
+                        nuevo_dato_online = {
+                            "id": id_online,
+                            "id_tank": mapa[sensor_code],
                             "sensor": sensor_code.split("/")[0],
                             "deviceId": mapa[sensor_code],
                             "code": sensor_code,
@@ -74,13 +80,31 @@ def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/
                             "synced": False
                         }
                         
-                        datos_existentes.append(nuevo_dato)
+                        nuevo_dato_historial = {
+                            "id": id_historial,
+                            "id_tank": mapa[sensor_code],
+                            "sensor": sensor_code.split("/")[0],
+                            "deviceId": mapa[sensor_code],
+                            "code": sensor_code,
+                            "value": valor,
+                            "unit": "N/A",
+                            "date": fecha,
+                            "synced": False
+                        }
                         
+                        # Guardar en archivo online (para sincronización inmediata)
+                        datos_online.append(nuevo_dato_online)
                         with open(archivo_salida, "w", encoding="utf-8") as f:
-                            json.dump(datos_existentes, f, indent=4, ensure_ascii=False)
+                            json.dump(datos_online, f, indent=4, ensure_ascii=False)
                         
-                        print(f"✅ Guardado: {nuevo_dato}")
-                        print(f"📊 Total datos en archivo: {len(datos_existentes)}")
+                        # Guardar en archivo historial (registro general)
+                        datos_historial.append(nuevo_dato_historial)
+                        with open(archivo_historial, "w", encoding="utf-8") as f:
+                            json.dump(datos_historial, f, indent=4, ensure_ascii=False)
+                        
+                        print(f"✅ Guardado en online: {nuevo_dato_online}")
+                        print(f"✅ Guardado en historial: {nuevo_dato_historial}")
+                        print(f"📊 Total datos online: {len(datos_online)} | Historial: {len(datos_historial)}")
                         datos_leidos += 1
                         
                     else:
@@ -102,7 +126,7 @@ def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/
             print("🔌 Conexión serial cerrada")
 
 # Función principal para leer datos del Arduino y guardarlos en JSON local (versión continua)
-def leer_serial_y_guardar(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_local.json"):
+def leer_serial_y_guardar(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json"):
     mapa = cargar_mapa_dispositivos()  # Mapa: { "temp/1": 1, "hmd/1": 2, ... }
 
     try:
@@ -126,11 +150,29 @@ def leer_serial_y_guardar(puerto='COM3', baudios=9600, archivo_salida="Jsons_DAT
                             continue
 
                         fecha = datetime.now().isoformat()
-                        datos_existentes = cargar_datos_existentes(archivo_salida)
+                        datos_online = cargar_datos_existentes(archivo_salida)
+                        datos_historial = cargar_datos_existentes(archivo_historial)
+                        
+                        # ID para archivo online
+                        id_online = obtener_siguiente_id(datos_online)
+                        # ID para archivo historial
+                        id_historial = obtener_siguiente_id(datos_historial)
 
-                        nuevo_dato = {
-                            "id": obtener_siguiente_id(datos_existentes),
-                            "id_tank": mapa[sensor_code],  # Usar el ID del dispositivo del mapa
+                        nuevo_dato_online = {
+                            "id": id_online,
+                            "id_tank": mapa[sensor_code],
+                            "sensor": sensor_code.split("/")[0],
+                            "deviceId": mapa[sensor_code],
+                            "code": sensor_code,
+                            "value": valor,
+                            "unit": "N/A",
+                            "date": fecha,
+                            "synced": False
+                        }
+                        
+                        nuevo_dato_historial = {
+                            "id": id_historial,
+                            "id_tank": mapa[sensor_code],
                             "sensor": sensor_code.split("/")[0],
                             "deviceId": mapa[sensor_code],
                             "code": sensor_code,
@@ -140,13 +182,19 @@ def leer_serial_y_guardar(puerto='COM3', baudios=9600, archivo_salida="Jsons_DAT
                             "synced": False
                         }
 
-                        datos_existentes.append(nuevo_dato)
-
+                        # Guardar en archivo online
+                        datos_online.append(nuevo_dato_online)
                         with open(archivo_salida, "w", encoding="utf-8") as f:
-                            json.dump(datos_existentes, f, indent=4, ensure_ascii=False)
+                            json.dump(datos_online, f, indent=4, ensure_ascii=False)
+                            
+                        # Guardar en archivo historial
+                        datos_historial.append(nuevo_dato_historial)
+                        with open(archivo_historial, "w", encoding="utf-8") as f:
+                            json.dump(datos_historial, f, indent=4, ensure_ascii=False)
 
-                        print(f"✅ Guardado: {nuevo_dato}")
-                        print(f"📊 Total datos en archivo: {len(datos_existentes)}")
+                        print(f"✅ Guardado en online: {nuevo_dato_online}")
+                        print(f"✅ Guardado en historial: {nuevo_dato_historial}")
+                        print(f"📊 Total datos online: {len(datos_online)} | Historial: {len(datos_historial)}")
 
                     else:
                         print(f"❌ Sensor desconocido: {sensor_code}")

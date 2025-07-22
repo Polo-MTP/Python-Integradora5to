@@ -32,17 +32,30 @@ def leer_sensores_periodicamente(puerto):
         time.sleep(300)
 
 def main():
+    print("🚀 Iniciando Sistema Integradora de Sensores")
+    print("="*60)
+    
+
+    
     # Iniciar hilo para obtener dispositivos diariamente
     hilo_dispositivos = threading.Thread(target=obtener_dispositivos_diariamente)
+    hilo_dispositivos.daemon = True
     hilo_dispositivos.start()
 
     # Iniciar lectura de sensores cada 5 minutos
     hilo_sensores = threading.Thread(target=leer_sensores_periodicamente, args=("COM6",))
+    hilo_sensores.daemon = True
     hilo_sensores.start()
+    
+    print("\n📋 Estado del sistema:")
+    print(f"📊 Lectura de sensores: Cada 5 minutos (puerto COM6)")
+    print(f"🔄 Sync dispositivos: Cada 24 horas")
+    print("\n⌨️  Presiona Ctrl+C para detener el sistema")
+    
 
     # Mantener el hilo principal vivo
-    hilo_dispositivos.join()
-    hilo_sensores.join()
+    hilo_dispositivos. join( )
+    hilo_sensores. join( )
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,10 @@
 class dataSensores:
-    def __init__(self, id, id_tank, sensor, value, unit, date):
+    def __init__(self, id, id_tank, sensor, value, unit, date, deviceId=None, code=None):
         self.id = id
         self.tankId = id_tank
         self.name = sensor
+        self.deviceId = deviceId
+        self.code = code
         self.value = value
         self.unit = unit
         self.date = date
