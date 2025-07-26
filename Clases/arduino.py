@@ -38,7 +38,7 @@ def obtener_siguiente_id(datos_existentes):
     return max(dato.get("id", 0) for dato in datos_existentes) + 1
 
 # Función para leer una sola vez los datos del Arduino
-def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json", timeout_lectura=10):
+def leer_serial_una_vez(puerto='COM3', baudios=115200, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json", timeout_lectura=10, sensor_filter=None):
     mapa = cargar_mapa_dispositivos()  # Mapa: { "temp/1": 1, "hmd/1": 2, ... }
     
     try:
@@ -58,6 +58,10 @@ def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/
                 if ':' in linea:
                     sensor_code, valor = linea.split(":")
                     
+                    # Si hay filtro de sensor, solo procesar ese sensor específico
+                    if sensor_filter and sensor_code != sensor_filter:
+                        continue
+                    
                     if sensor_code in mapa:
                         try:
                             valor = float(valor)
@@ -74,6 +78,7 @@ def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/
                         # ID para archivo historial (basado en el historial completo)
                         id_historial = obtener_siguiente_id(datos_historial)
                         
+                        # Datos para archivo ONLINE (temporal, para sync)
                         nuevo_dato_online = {
                             "id": id_online,
                             "id_tank": mapa[sensor_code],
@@ -86,16 +91,16 @@ def leer_serial_una_vez(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/
                             "synced": False
                         }
                         
+                        # Datos para archivo LOCAL (historial permanente, SIN synced)
                         nuevo_dato_historial = {
                             "id": id_historial,
-                            "id_tank": mapa[sensor_code],
-                            "sensor": sensor_code.split("/")[0],
+                            "tankId": mapa[sensor_code],
+                            "name": sensor_code.split("/")[0],
                             "deviceId": mapa[sensor_code],
                             "code": sensor_code,
                             "value": valor,
                             "unit": "N/A",
-                            "date": fecha,
-                            "synced": False
+                            "date": fecha
                         }
                         
                         # Guardar en archivo online (para sincronización inmediata)

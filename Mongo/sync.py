@@ -6,7 +6,7 @@ import sys
 # Agregar el directorio padre al path para importar las clases
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from mongo import MongoDb
+from .mongo import MongoDb
 from Clases.lista import Lista
 from Clases.dataSensores import dataSensores
 
@@ -178,17 +178,14 @@ def sincronizar_a_mongo(archivo_online="Jsons_DATA/data_sensores_online.json"):
                         sync_manager.mongo.insertar_documentos(datos_mongo)
                         print(f"✅ {len(datos_mongo)} datos insertados en MongoDB")
                         
-                        sync_manager.marcar_como_sincronizados(lista_datos)
-                        
-                        sync_manager.limpiar_datos_antiguos()
+                        # Borrar COMPLETAMENTE el archivo online después de subir exitosamente
+                        with open(archivo_online, "w", encoding="utf-8") as f:
+                            json.dump([], f, indent=4, ensure_ascii=False)
+                        print(f"🗑️ Archivo online limpiado - {len(datos_mongo)} datos procesados")
                         
                     except Exception as e:
                         print(f"❌ Error al insertar en MongoDB: {e}")
-                        print("⚠️ Datos no marcados como sincronizados")
-                        
-                    # Borrar datos del archivo online después de subir
-                    with open(archivo_online, "w", encoding="utf-8") as f:
-                        json.dump([], f, indent=4, ensure_ascii=False)
+                        print("⚠️ Datos NO fueron borrados del archivo online")
                     
                 else:
                     print("⏳ No hay datos nuevos para subir a MongoDB.")

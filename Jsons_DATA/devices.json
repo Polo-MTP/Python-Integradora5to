@@ -2,9 +2,45 @@
     {
         "id": 1,
         "tankId": 1,
-        "code": "temp/1",
-        "name": "temperatura",
-        "createdAt": "2025-07-19T01:37:23.000-06:00",
-        "updatedAt": "2025-07-19T01:37:23.000-06:00"
+        "tank_id": 1,
+        "code": "temp/01",
+        "name": "temp",
+        "createdAt": null,
+        "updatedAt": null,
+        "created_at": null,
+        "updated_at": null,
+        "sensor_type_id": 1,
+        "sensor_type": {
+            "id": 1,
+            "name": "temp",
+            "code": "temp",
+            "reading_interval": 300,
+            "is_active": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        "reading_interval": 300
+    },
+    {
+        "id": 2,
+        "tankId": 1,
+        "tank_id": 1,
+        "code": "tds/01",
+        "name": "tds",
+        "createdAt": null,
+        "updatedAt": null,
+        "created_at": null,
+        "updated_at": null,
+        "sensor_type_id": 2,
+        "sensor_type": {
+            "id": 2,
+            "name": "tds",
+            "code": "tds",
+            "reading_interval": 300,
+            "is_active": 1,
+            "created_at": null,
+            "updated_at": null
+        },
+        "reading_interval": 300
     }
 ]

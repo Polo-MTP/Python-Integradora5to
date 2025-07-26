@@ -1,5 +1,5 @@
 class dataSensores:
-    def __init__(self, id, id_tank, sensor, value, unit, date, deviceId=None, code=None):
+    def __init__(self, id, id_tank, sensor, value, unit, date, deviceId=None, code=None, synced=False):
         self.id = id
         self.tankId = id_tank
         self.name = sensor
@@ -8,6 +8,7 @@ class dataSensores:
         self.value = value
         self.unit = unit
         self.date = date
+        self.synced = synced
 
     def diccionario(self):
         return self.__dict__
