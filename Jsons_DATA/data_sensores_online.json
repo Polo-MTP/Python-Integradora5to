@@ -1,13 +1,1 @@
-[
-    {
-        "id": 1,
-        "id_tank": 1,
-        "sensor": "temp",
-        "deviceId": 1,
-        "code": "temp/01",
-        "value": 85.0,
-        "unit": "N/A",
-        "date": "2025-07-25T19:41:58.754496",
-        "synced": false
-    }
-]
+[]

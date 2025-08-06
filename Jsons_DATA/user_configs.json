@@ -1,7 +1,27 @@
 [
-  {
-    "code": "feed",
-    "config_type": "Alimentar peces",
-    "config_value": "13:00"
-  }
+    {
+        "code": "on",
+        "config_type": "luz",
+        "config_value": "16:18"
+    },
+    {
+        "code": "on",
+        "config_type": "luz",
+        "config_value": "16:26"
+    },
+    {
+        "code": "off",
+        "config_type": "luz",
+        "config_value": "16:27"
+    },
+    {
+        "code": "on",
+        "config_type": "luz",
+        "config_value": "16:28"
+    },
+    {
+        "code": "on",
+        "config_type": "luz",
+        "config_value": "16:31"
+    }
 ]

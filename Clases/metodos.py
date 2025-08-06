@@ -40,7 +40,7 @@ def guardar_dispositivos_json(dispositivos: list, archivo: str = 'Jsons_DATA/dev
     print(f"✅ Dispositivos guardados exitosamente en {archivo}")
 
 def obtener_configuraciones(uuid: str):
-    url = 'http://localhost:3333/getconfig'
+    url = 'https://761ad39b8f57.ngrok-free.app/getconfig'
     payload = {'uuid': uuid}
 
     try:
