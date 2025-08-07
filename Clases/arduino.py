@@ -38,7 +38,7 @@ def obtener_siguiente_id(datos_existentes):
     return max(dato.get("id", 0) for dato in datos_existentes) + 1
 
 # Función para leer una sola vez los datos del Arduino
-def leer_serial_una_vez(puerto='COM3', baudios=115200, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json", timeout_lectura=10, sensor_filter=None):
+def leer_serial_una_vez(puerto='COM6', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json", timeout_lectura=10, sensor_filter=None):
     mapa = cargar_mapa_dispositivos()  # Mapa: { "temp/1": 1, "hmd/1": 2, ... }
     
     try:
@@ -137,7 +137,7 @@ def leer_serial_una_vez(puerto='COM3', baudios=115200, archivo_salida="Jsons_DAT
             print("🔌 Conexión serial cerrada")
 
 # Función principal para leer datos del Arduino y guardarlos en JSON local (versión continua)
-def leer_serial_y_guardar(puerto='COM3', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json"):
+def leer_serial_y_guardar(puerto='COM6', baudios=9600, archivo_salida="Jsons_DATA/data_sensores_online.json", archivo_historial="Jsons_DATA/data_sensores_local.json"):
     mapa = cargar_mapa_dispositivos()  # Mapa: { "temp/1": 1, "hmd/1": 2, ... }
 
     try:

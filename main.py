@@ -27,7 +27,7 @@ topic = 'conf/uuid/code'
 def enviar_comando_a_arduino(codigo, puerto=puerto_serial):
     """Función unificada para enviar comandos al Arduino"""
     try:
-        with serial.Serial(puerto, 115200, timeout=3) as arduino:
+        with serial.Serial(puerto, 9600, timeout=3) as arduino:
             print(f"📡 Puerto {puerto} conectado")
             time.sleep(3)  # Esperar a que Arduino se inicialice
             arduino.write(f"{codigo}\n".encode())
