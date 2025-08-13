@@ -1,52 +1,14 @@
 [
     {
-        "code": "food",
-        "config_type": "comida",
-        "config_value": "11:21 p.m."
+        "code": "dsdf",
+        "config_type": "sdfs",
+        "config_value": "12:40",
+        "config_day": "2025-07-12"
     },
     {
-        "code": "on",
-        "config_type": "luz",
-        "config_value": "11:21 p.m."
-    },
-    {
-        "code": "off",
-        "config_type": "luz",
-        "config_value": "4:52 p.m."
-    },
-    {
-        "code": "on",
-        "config_type": "luz",
-        "config_value": "11:57"
-    },
-    {
-        "code": "off",
-        "config_type": "luz",
-        "config_value": "11:58"
-    },
-    {
-        "code": "food",
-        "config_type": "comida",
-        "config_value": "12:03"
-    },
-    {
-        "code": "on",
-        "config_type": "luz",
-        "config_value": "12:03"
-    },
-    {
-        "code": "off",
-        "config_type": "luz",
-        "config_value": "12:04"
-    },
-    {
-        "code": "on",
-        "config_type": "luz",
-        "config_value": "12:52"
-    },
-    {
-        "code": "off",
-        "config_type": "luz",
-        "config_value": "12:53"
+        "code": "dsfsdf",
+        "config_type": "sdf",
+        "config_value": "09:16",
+        "config_day": "2025-08-14"
     }
 ]
