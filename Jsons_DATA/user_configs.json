@@ -1,27 +1,52 @@
 [
     {
-        "code": "on",
-        "config_type": "luz",
-        "config_value": "16:18"
+        "code": "food",
+        "config_type": "comida",
+        "config_value": "11:21 p.m."
     },
     {
         "code": "on",
         "config_type": "luz",
-        "config_value": "16:26"
+        "config_value": "11:21 p.m."
     },
     {
         "code": "off",
         "config_type": "luz",
-        "config_value": "16:27"
+        "config_value": "4:52 p.m."
     },
     {
         "code": "on",
         "config_type": "luz",
-        "config_value": "16:28"
+        "config_value": "11:57"
+    },
+    {
+        "code": "off",
+        "config_type": "luz",
+        "config_value": "11:58"
+    },
+    {
+        "code": "food",
+        "config_type": "comida",
+        "config_value": "12:03"
     },
     {
         "code": "on",
         "config_type": "luz",
-        "config_value": "16:31"
+        "config_value": "12:03"
+    },
+    {
+        "code": "off",
+        "config_type": "luz",
+        "config_value": "12:04"
+    },
+    {
+        "code": "on",
+        "config_type": "luz",
+        "config_value": "12:52"
+    },
+    {
+        "code": "off",
+        "config_type": "luz",
+        "config_value": "12:53"
     }
 ]

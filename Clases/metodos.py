@@ -15,7 +15,7 @@ def obtener_uuid():
     return os.getenv("UUID")
 
 def obtener_dispositivos(uuid: str):
-    url = 'https://fe2cd91123b4.ngrok-free.app/getdevices'
+    url = 'https://2397a37c32ea.ngrok-free.app/getdevices'
     payload = {'uuid': uuid}
 
     try:
@@ -40,7 +40,7 @@ def guardar_dispositivos_json(dispositivos: list, archivo: str = 'Jsons_DATA/dev
     print(f"✅ Dispositivos guardados exitosamente en {archivo}")
 
 def obtener_configuraciones(uuid: str):
-    url = 'https://fe2cd91123b4.ngrok-free.app/getconfig'
+    url = 'https://2397a37c32ea.ngrok-free.app/getconfig'
     payload = {'uuid': uuid}
 
     try:

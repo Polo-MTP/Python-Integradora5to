@@ -138,5 +138,4155 @@
         "value": 19.75,
         "unit": "N/A",
         "date": "2025-08-08T11:07:53.863915"
+    },
+    {
+        "id": 15,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:40.855270"
+    },
+    {
+        "id": 16,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:42.966511"
+    },
+    {
+        "id": 17,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:45.180731"
+    },
+    {
+        "id": 18,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:47.394691"
+    },
+    {
+        "id": 19,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:49.608145"
+    },
+    {
+        "id": 20,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:51.819619"
+    },
+    {
+        "id": 21,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:54.032872"
+    },
+    {
+        "id": 22,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:56.246616"
+    },
+    {
+        "id": 23,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T11:24:58.459714"
+    },
+    {
+        "id": 24,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:00.674161"
+    },
+    {
+        "id": 25,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:02.888292"
+    },
+    {
+        "id": 26,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:05.101346"
+    },
+    {
+        "id": 27,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:07.316198"
+    },
+    {
+        "id": 28,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:09.531056"
+    },
+    {
+        "id": 29,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:27.477381"
+    },
+    {
+        "id": 30,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:29.589479"
+    },
+    {
+        "id": 31,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:31.804119"
+    },
+    {
+        "id": 32,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:34.016070"
+    },
+    {
+        "id": 33,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:36.227963"
+    },
+    {
+        "id": 34,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:38.443191"
+    },
+    {
+        "id": 35,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:40.657298"
+    },
+    {
+        "id": 36,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:42.871126"
+    },
+    {
+        "id": 37,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:45.084306"
+    },
+    {
+        "id": 38,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:47.296956"
+    },
+    {
+        "id": 39,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:49.509975"
+    },
+    {
+        "id": 40,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:51.723728"
+    },
+    {
+        "id": 41,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:53.939286"
+    },
+    {
+        "id": 42,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:25:56.153562"
+    },
+    {
+        "id": 43,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:34.908474"
+    },
+    {
+        "id": 44,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:35.011480"
+    },
+    {
+        "id": 45,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:35.117114"
+    },
+    {
+        "id": 46,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:35.228238"
+    },
+    {
+        "id": 47,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:35.332718"
+    },
+    {
+        "id": 48,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:35.436022"
+    },
+    {
+        "id": 49,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:35.539541"
+    },
+    {
+        "id": 50,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:35.744798"
+    },
+    {
+        "id": 51,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:37.758217"
+    },
+    {
+        "id": 52,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:39.972349"
+    },
+    {
+        "id": 53,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:42.187313"
+    },
+    {
+        "id": 54,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:44.401433"
+    },
+    {
+        "id": 55,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:46.615225"
+    },
+    {
+        "id": 56,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.37,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:48.829016"
+    },
+    {
+        "id": 57,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:51.044435"
+    },
+    {
+        "id": 58,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:53.260472"
+    },
+    {
+        "id": 59,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:55.474371"
+    },
+    {
+        "id": 60,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:57.688765"
+    },
+    {
+        "id": 61,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:29:59.903457"
+    },
+    {
+        "id": 62,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:30:02.117887"
+    },
+    {
+        "id": 63,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:30:04.332193"
+    },
+    {
+        "id": 64,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:34.909090"
+    },
+    {
+        "id": 65,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:35.013414"
+    },
+    {
+        "id": 66,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:35.116921"
+    },
+    {
+        "id": 67,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:35.233327"
+    },
+    {
+        "id": 68,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:35.337215"
+    },
+    {
+        "id": 69,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:35.441418"
+    },
+    {
+        "id": 70,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:35.646508"
+    },
+    {
+        "id": 71,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:37.759893"
+    },
+    {
+        "id": 72,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:39.997457"
+    },
+    {
+        "id": 73,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:42.211111"
+    },
+    {
+        "id": 74,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:44.423234"
+    },
+    {
+        "id": 75,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:46.636444"
+    },
+    {
+        "id": 76,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:48.882356"
+    },
+    {
+        "id": 77,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:51.098366"
+    },
+    {
+        "id": 78,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:53.311238"
+    },
+    {
+        "id": 79,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:55.526116"
+    },
+    {
+        "id": 80,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:57.741640"
+    },
+    {
+        "id": 81,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:34:59.970580"
+    },
+    {
+        "id": 82,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:35:02.185406"
+    },
+    {
+        "id": 83,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:35:04.399894"
+    },
+    {
+        "id": 84,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:07.648438"
+    },
+    {
+        "id": 85,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:09.761935"
+    },
+    {
+        "id": 86,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.37,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:11.975987"
+    },
+    {
+        "id": 87,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:14.190573"
+    },
+    {
+        "id": 88,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:16.429604"
+    },
+    {
+        "id": 89,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:18.642815"
+    },
+    {
+        "id": 90,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:20.858304"
+    },
+    {
+        "id": 91,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:23.072791"
+    },
+    {
+        "id": 92,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:25.286854"
+    },
+    {
+        "id": 93,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:27.500821"
+    },
+    {
+        "id": 94,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:29.713148"
+    },
+    {
+        "id": 95,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:31.926223"
+    },
+    {
+        "id": 96,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:34.137529"
+    },
+    {
+        "id": 97,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:40:36.350300"
+    },
+    {
+        "id": 98,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:07.715524"
+    },
+    {
+        "id": 99,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:09.929526"
+    },
+    {
+        "id": 100,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:12.140358"
+    },
+    {
+        "id": 101,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:14.355575"
+    },
+    {
+        "id": 102,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:16.569428"
+    },
+    {
+        "id": 103,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:18.782860"
+    },
+    {
+        "id": 104,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:20.995823"
+    },
+    {
+        "id": 105,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:23.209298"
+    },
+    {
+        "id": 106,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:25.420753"
+    },
+    {
+        "id": 107,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:27.632738"
+    },
+    {
+        "id": 108,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:29.844175"
+    },
+    {
+        "id": 109,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:32.060461"
+    },
+    {
+        "id": 110,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:34.276696"
+    },
+    {
+        "id": 111,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:45:36.491788"
+    },
+    {
+        "id": 112,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:27.031108"
+    },
+    {
+        "id": 113,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:29.144938"
+    },
+    {
+        "id": 114,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.37,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:31.359994"
+    },
+    {
+        "id": 115,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:33.573165"
+    },
+    {
+        "id": 116,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:35.787888"
+    },
+    {
+        "id": 117,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:38.001775"
+    },
+    {
+        "id": 118,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:40.215627"
+    },
+    {
+        "id": 119,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:42.428739"
+    },
+    {
+        "id": 120,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.37,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:44.643448"
+    },
+    {
+        "id": 121,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:46.858494"
+    },
+    {
+        "id": 122,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.37,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:49.073205"
+    },
+    {
+        "id": 123,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:51.285938"
+    },
+    {
+        "id": 124,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:53.515333"
+    },
+    {
+        "id": 125,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.37,
+        "unit": "N/A",
+        "date": "2025-08-08T11:49:55.730448"
+    },
+    {
+        "id": 126,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:27.033443"
+    },
+    {
+        "id": 127,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:29.248015"
+    },
+    {
+        "id": 128,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:31.464135"
+    },
+    {
+        "id": 129,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:33.676635"
+    },
+    {
+        "id": 130,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:35.890322"
+    },
+    {
+        "id": 131,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:38.104637"
+    },
+    {
+        "id": 132,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:40.316990"
+    },
+    {
+        "id": 133,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:42.530122"
+    },
+    {
+        "id": 134,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:44.744113"
+    },
+    {
+        "id": 135,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:46.956265"
+    },
+    {
+        "id": 136,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:49.170992"
+    },
+    {
+        "id": 137,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:51.384394"
+    },
+    {
+        "id": 138,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:53.599306"
+    },
+    {
+        "id": 139,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:54:55.812918"
+    },
+    {
+        "id": 140,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:38.333410"
+    },
+    {
+        "id": 141,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:40.548105"
+    },
+    {
+        "id": 142,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:42.761027"
+    },
+    {
+        "id": 143,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:44.974709"
+    },
+    {
+        "id": 144,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:47.188220"
+    },
+    {
+        "id": 145,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:49.404606"
+    },
+    {
+        "id": 146,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:51.618142"
+    },
+    {
+        "id": 147,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:53.832724"
+    },
+    {
+        "id": 148,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:56.054185"
+    },
+    {
+        "id": 149,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T11:59:58.266341"
+    },
+    {
+        "id": 150,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:00:00.481253"
+    },
+    {
+        "id": 151,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:00:02.694593"
+    },
+    {
+        "id": 152,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:00:04.918814"
+    },
+    {
+        "id": 153,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:00:07.131306"
+    },
+    {
+        "id": 154,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:38.334079"
+    },
+    {
+        "id": 155,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:40.446909"
+    },
+    {
+        "id": 156,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:42.661209"
+    },
+    {
+        "id": 157,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:44.874478"
+    },
+    {
+        "id": 158,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.69,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:47.089215"
+    },
+    {
+        "id": 159,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.69,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:49.303666"
+    },
+    {
+        "id": 160,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:51.517589"
+    },
+    {
+        "id": 161,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:53.733107"
+    },
+    {
+        "id": 162,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:55.949439"
+    },
+    {
+        "id": 163,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T12:04:58.162267"
+    },
+    {
+        "id": 164,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:05:00.374498"
+    },
+    {
+        "id": 165,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:05:02.590648"
+    },
+    {
+        "id": 166,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.62,
+        "unit": "N/A",
+        "date": "2025-08-08T12:05:04.804824"
+    },
+    {
+        "id": 167,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:05:07.018642"
+    },
+    {
+        "id": 168,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:09:59.051465"
+    },
+    {
+        "id": 169,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:01.163798"
+    },
+    {
+        "id": 170,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:03.376794"
+    },
+    {
+        "id": 171,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.44,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:05.594435"
+    },
+    {
+        "id": 172,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:07.807357"
+    },
+    {
+        "id": 173,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:10.022396"
+    },
+    {
+        "id": 174,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:12.237498"
+    },
+    {
+        "id": 175,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:14.451383"
+    },
+    {
+        "id": 176,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:16.667123"
+    },
+    {
+        "id": 177,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:18.882676"
+    },
+    {
+        "id": 178,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:21.098386"
+    },
+    {
+        "id": 179,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:23.312883"
+    },
+    {
+        "id": 180,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:25.527146"
+    },
+    {
+        "id": 181,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 19.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:10:27.742662"
+    },
+    {
+        "id": 182,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:14:59.131410"
+    },
+    {
+        "id": 183,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:01.346385"
+    },
+    {
+        "id": 184,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:03.562810"
+    },
+    {
+        "id": 185,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:05.777382"
+    },
+    {
+        "id": 186,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:07.991848"
+    },
+    {
+        "id": 187,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:10.206113"
+    },
+    {
+        "id": 188,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:12.420094"
+    },
+    {
+        "id": 189,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:14.637309"
+    },
+    {
+        "id": 190,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:16.851242"
+    },
+    {
+        "id": 191,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:19.066536"
+    },
+    {
+        "id": 192,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:21.281792"
+    },
+    {
+        "id": 193,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:23.496053"
+    },
+    {
+        "id": 194,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:25.710193"
+    },
+    {
+        "id": 195,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:15:27.924354"
+    },
+    {
+        "id": 196,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:10.352780"
+    },
+    {
+        "id": 197,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:12.567312"
+    },
+    {
+        "id": 198,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:14.781394"
+    },
+    {
+        "id": 199,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:16.995349"
+    },
+    {
+        "id": 200,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:19.211685"
+    },
+    {
+        "id": 201,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:21.425771"
+    },
+    {
+        "id": 202,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:23.639865"
+    },
+    {
+        "id": 203,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:25.853994"
+    },
+    {
+        "id": 204,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:28.070325"
+    },
+    {
+        "id": 205,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:30.285220"
+    },
+    {
+        "id": 206,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:32.499451"
+    },
+    {
+        "id": 207,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:34.714338"
+    },
+    {
+        "id": 208,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:36.927545"
+    },
+    {
+        "id": 209,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:20:39.142416"
+    },
+    {
+        "id": 210,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.06,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:10.438109"
+    },
+    {
+        "id": 211,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:12.551278"
+    },
+    {
+        "id": 212,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 20.94,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:14.767494"
+    },
+    {
+        "id": 213,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:16.981331"
+    },
+    {
+        "id": 214,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.06,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:19.195324"
+    },
+    {
+        "id": 215,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.06,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:21.410245"
+    },
+    {
+        "id": 216,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:23.625610"
+    },
+    {
+        "id": 217,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:25.839120"
+    },
+    {
+        "id": 218,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.12,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:28.054186"
+    },
+    {
+        "id": 219,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:30.267879"
+    },
+    {
+        "id": 220,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:32.483081"
+    },
+    {
+        "id": 221,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 20.94,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:34.697962"
+    },
+    {
+        "id": 222,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 20.94,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:36.911682"
+    },
+    {
+        "id": 223,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.12,
+        "unit": "N/A",
+        "date": "2025-08-08T12:25:39.126569"
+    },
+    {
+        "id": 224,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:31.061405"
+    },
+    {
+        "id": 225,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:33.201335"
+    },
+    {
+        "id": 226,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.69,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:35.416014"
+    },
+    {
+        "id": 227,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:37.630542"
+    },
+    {
+        "id": 228,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:39.846072"
+    },
+    {
+        "id": 229,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:42.064079"
+    },
+    {
+        "id": 230,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:44.277631"
+    },
+    {
+        "id": 231,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:46.492215"
+    },
+    {
+        "id": 232,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.62,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:48.707899"
+    },
+    {
+        "id": 233,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:50.922872"
+    },
+    {
+        "id": 234,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.62,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:53.138864"
+    },
+    {
+        "id": 235,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:55.353530"
+    },
+    {
+        "id": 236,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.62,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:57.568300"
+    },
+    {
+        "id": 237,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 21.56,
+        "unit": "N/A",
+        "date": "2025-08-08T12:30:59.782761"
+    },
+    {
+        "id": 238,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:31.142866"
+    },
+    {
+        "id": 239,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:33.357898"
+    },
+    {
+        "id": 240,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:35.571988"
+    },
+    {
+        "id": 241,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:37.787454"
+    },
+    {
+        "id": 242,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:40.003099"
+    },
+    {
+        "id": 243,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:42.218304"
+    },
+    {
+        "id": 244,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:44.433270"
+    },
+    {
+        "id": 245,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:46.649881"
+    },
+    {
+        "id": 246,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:48.865220"
+    },
+    {
+        "id": 247,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:51.080133"
+    },
+    {
+        "id": 248,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:53.294674"
+    },
+    {
+        "id": 249,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:55.508770"
+    },
+    {
+        "id": 250,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:57.722611"
+    },
+    {
+        "id": 251,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:35:59.939314"
+    },
+    {
+        "id": 252,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:41.559597"
+    },
+    {
+        "id": 253,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:41.666372"
+    },
+    {
+        "id": 254,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:41.772237"
+    },
+    {
+        "id": 255,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:41.895511"
+    },
+    {
+        "id": 256,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:42.001004"
+    },
+    {
+        "id": 257,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:42.107945"
+    },
+    {
+        "id": 258,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:42.213192"
+    },
+    {
+        "id": 259,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:42.324889"
+    },
+    {
+        "id": 260,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:42.531522"
+    },
+    {
+        "id": 261,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:44.544043"
+    },
+    {
+        "id": 262,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:46.758421"
+    },
+    {
+        "id": 263,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:48.971832"
+    },
+    {
+        "id": 264,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:51.187236"
+    },
+    {
+        "id": 265,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:53.403084"
+    },
+    {
+        "id": 266,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:55.618581"
+    },
+    {
+        "id": 267,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:40:57.834860"
+    },
+    {
+        "id": 268,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:41:00.051731"
+    },
+    {
+        "id": 269,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:41:02.265919"
+    },
+    {
+        "id": 270,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:41:04.479873"
+    },
+    {
+        "id": 271,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:41:06.696479"
+    },
+    {
+        "id": 272,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:41:08.912385"
+    },
+    {
+        "id": 273,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:41:11.128414"
+    },
+    {
+        "id": 274,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.69,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:42.546911"
+    },
+    {
+        "id": 275,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.69,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:44.662590"
+    },
+    {
+        "id": 276,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.69,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:46.884059"
+    },
+    {
+        "id": 277,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.75,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:49.100078"
+    },
+    {
+        "id": 278,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.69,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:51.314476"
+    },
+    {
+        "id": 279,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.81,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:53.530547"
+    },
+    {
+        "id": 280,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.75,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:55.747727"
+    },
+    {
+        "id": 281,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.75,
+        "unit": "N/A",
+        "date": "2025-08-08T12:45:57.963841"
+    },
+    {
+        "id": 282,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.81,
+        "unit": "N/A",
+        "date": "2025-08-08T12:46:00.180581"
+    },
+    {
+        "id": 283,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.75,
+        "unit": "N/A",
+        "date": "2025-08-08T12:46:02.397430"
+    },
+    {
+        "id": 284,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.81,
+        "unit": "N/A",
+        "date": "2025-08-08T12:46:04.614615"
+    },
+    {
+        "id": 285,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.75,
+        "unit": "N/A",
+        "date": "2025-08-08T12:46:06.831566"
+    },
+    {
+        "id": 286,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.87,
+        "unit": "N/A",
+        "date": "2025-08-08T12:46:09.046575"
+    },
+    {
+        "id": 287,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 22.87,
+        "unit": "N/A",
+        "date": "2025-08-08T12:46:11.263169"
+    },
+    {
+        "id": 288,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:14.446935"
+    },
+    {
+        "id": 289,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:16.660135"
+    },
+    {
+        "id": 290,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:18.876108"
+    },
+    {
+        "id": 291,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:21.092426"
+    },
+    {
+        "id": 292,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:23.307934"
+    },
+    {
+        "id": 293,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:25.526286"
+    },
+    {
+        "id": 294,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:27.742036"
+    },
+    {
+        "id": 295,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:29.959488"
+    },
+    {
+        "id": 296,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:32.174286"
+    },
+    {
+        "id": 297,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:34.392409"
+    },
+    {
+        "id": 298,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:36.606756"
+    },
+    {
+        "id": 299,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:38.822340"
+    },
+    {
+        "id": 300,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:41.037981"
+    },
+    {
+        "id": 301,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:51:43.254372"
+    },
+    {
+        "id": 302,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.31,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:02.398979"
+    },
+    {
+        "id": 303,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:02.504362"
+    },
+    {
+        "id": 304,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:02.610835"
+    },
+    {
+        "id": 305,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.44,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:02.724404"
+    },
+    {
+        "id": 306,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:02.830379"
+    },
+    {
+        "id": 307,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.31,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:02.936214"
+    },
+    {
+        "id": 308,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:03.041992"
+    },
+    {
+        "id": 309,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:03.252161"
+    },
+    {
+        "id": 310,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:05.266276"
+    },
+    {
+        "id": 311,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:07.481657"
+    },
+    {
+        "id": 312,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.5,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:09.696662"
+    },
+    {
+        "id": 313,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:11.912029"
+    },
+    {
+        "id": 314,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.44,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:14.128377"
+    },
+    {
+        "id": 315,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:16.344116"
+    },
+    {
+        "id": 316,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:18.558641"
+    },
+    {
+        "id": 317,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:20.781247"
+    },
+    {
+        "id": 318,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:22.998206"
+    },
+    {
+        "id": 319,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:25.211341"
+    },
+    {
+        "id": 320,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:27.425150"
+    },
+    {
+        "id": 321,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.44,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:29.641589"
+    },
+    {
+        "id": 322,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 23.37,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:31.856230"
+    },
+    {
+        "id": 323,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:46.471435"
+    },
+    {
+        "id": 324,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:48.688279"
+    },
+    {
+        "id": 325,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:50.903217"
+    },
+    {
+        "id": 326,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:53.119832"
+    },
+    {
+        "id": 327,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:55.335096"
+    },
+    {
+        "id": 328,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:57.550285"
+    },
+    {
+        "id": 329,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:56:59.764982"
+    },
+    {
+        "id": 330,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:57:01.979868"
+    },
+    {
+        "id": 331,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:57:04.197511"
+    },
+    {
+        "id": 332,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:57:06.413996"
+    },
+    {
+        "id": 333,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:57:08.629240"
+    },
+    {
+        "id": 334,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:57:10.844539"
+    },
+    {
+        "id": 335,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:57:13.060829"
+    },
+    {
+        "id": 336,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T12:57:15.277686"
+    },
+    {
+        "id": 337,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:02.464328"
+    },
+    {
+        "id": 338,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:02.579645"
+    },
+    {
+        "id": 339,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:02.686754"
+    },
+    {
+        "id": 340,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:02.810672"
+    },
+    {
+        "id": 341,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:02.916742"
+    },
+    {
+        "id": 342,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:03.024625"
+    },
+    {
+        "id": 343,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:03.131676"
+    },
+    {
+        "id": 344,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:03.238854"
+    },
+    {
+        "id": 345,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:03.345984"
+    },
+    {
+        "id": 346,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:03.453061"
+    },
+    {
+        "id": 347,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:03.661429"
+    },
+    {
+        "id": 348,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:05.374293"
+    },
+    {
+        "id": 349,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:07.589261"
+    },
+    {
+        "id": 350,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:09.808105"
+    },
+    {
+        "id": 351,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:12.025657"
+    },
+    {
+        "id": 352,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:14.241634"
+    },
+    {
+        "id": 353,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:16.456794"
+    },
+    {
+        "id": 354,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:18.673658"
+    },
+    {
+        "id": 355,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:20.889793"
+    },
+    {
+        "id": 356,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:23.108555"
+    },
+    {
+        "id": 357,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:25.324180"
+    },
+    {
+        "id": 358,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:27.541399"
+    },
+    {
+        "id": 359,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:29.758015"
+    },
+    {
+        "id": 360,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:01:31.974442"
+    },
+    {
+        "id": 361,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:18.494038"
+    },
+    {
+        "id": 362,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:20.711381"
+    },
+    {
+        "id": 363,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:22.928282"
+    },
+    {
+        "id": 364,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:25.144178"
+    },
+    {
+        "id": 365,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:27.361283"
+    },
+    {
+        "id": 366,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:29.578064"
+    },
+    {
+        "id": 367,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:31.792270"
+    },
+    {
+        "id": 368,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:34.008513"
+    },
+    {
+        "id": 369,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:36.227359"
+    },
+    {
+        "id": 370,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:38.444314"
+    },
+    {
+        "id": 371,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:40.659517"
+    },
+    {
+        "id": 372,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:42.877497"
+    },
+    {
+        "id": 373,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:45.092048"
+    },
+    {
+        "id": 374,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:02:47.308224"
+    },
+    {
+        "id": 375,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:13.777619"
+    },
+    {
+        "id": 376,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:13.883952"
+    },
+    {
+        "id": 377,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:13.992037"
+    },
+    {
+        "id": 378,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:14.108818"
+    },
+    {
+        "id": 379,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:14.216035"
+    },
+    {
+        "id": 380,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:14.330942"
+    },
+    {
+        "id": 381,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:14.437945"
+    },
+    {
+        "id": 382,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:14.546028"
+    },
+    {
+        "id": 383,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:14.652740"
+    },
+    {
+        "id": 384,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:14.861583"
+    },
+    {
+        "id": 385,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.12,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:16.681837"
+    },
+    {
+        "id": 386,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:18.897723"
+    },
+    {
+        "id": 387,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:21.113900"
+    },
+    {
+        "id": 388,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.12,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:23.329376"
+    },
+    {
+        "id": 389,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:25.543956"
+    },
+    {
+        "id": 390,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.12,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:27.764891"
+    },
+    {
+        "id": 391,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:29.980540"
+    },
+    {
+        "id": 392,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:32.196339"
+    },
+    {
+        "id": 393,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.12,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:34.413354"
+    },
+    {
+        "id": 394,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:36.629908"
+    },
+    {
+        "id": 395,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.12,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:38.845984"
+    },
+    {
+        "id": 396,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.12,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:41.063032"
+    },
+    {
+        "id": 397,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.19,
+        "unit": "N/A",
+        "date": "2025-08-08T13:06:43.277898"
+    },
+    {
+        "id": 398,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:07:49.720513"
+    },
+    {
+        "id": 399,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:07:49.827896"
+    },
+    {
+        "id": 400,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:07:50.467270"
+    },
+    {
+        "id": 401,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:07:52.684089"
+    },
+    {
+        "id": 402,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:07:54.898327"
+    },
+    {
+        "id": 403,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:07:57.114745"
+    },
+    {
+        "id": 404,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:07:59.331918"
+    },
+    {
+        "id": 405,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:01.547748"
+    },
+    {
+        "id": 406,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:03.762784"
+    },
+    {
+        "id": 407,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:05.978967"
+    },
+    {
+        "id": 408,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:08.194048"
+    },
+    {
+        "id": 409,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:10.409919"
+    },
+    {
+        "id": 410,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:12.626475"
+    },
+    {
+        "id": 411,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:14.847415"
+    },
+    {
+        "id": 412,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:17.066980"
+    },
+    {
+        "id": 413,
+        "tankId": 32,
+        "name": "nivel",
+        "deviceId": 32,
+        "code": "nivel/1",
+        "value": 0.0,
+        "unit": "N/A",
+        "date": "2025-08-08T13:08:19.284318"
+    },
+    {
+        "id": 414,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.37,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:34.471624"
+    },
+    {
+        "id": 415,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.37,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:34.579613"
+    },
+    {
+        "id": 416,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.44,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:34.687313"
+    },
+    {
+        "id": 417,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:34.800405"
+    },
+    {
+        "id": 418,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.44,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:34.906779"
+    },
+    {
+        "id": 419,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.37,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:35.013722"
+    },
+    {
+        "id": 420,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.37,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:35.120699"
+    },
+    {
+        "id": 421,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:35.336362"
+    },
+    {
+        "id": 422,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:37.350942"
+    },
+    {
+        "id": 423,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.31,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:39.567973"
+    },
+    {
+        "id": 424,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.31,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:41.784373"
+    },
+    {
+        "id": 425,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.25,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:43.999910"
+    },
+    {
+        "id": 426,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.37,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:46.215242"
+    },
+    {
+        "id": 427,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.31,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:48.429955"
+    },
+    {
+        "id": 428,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.31,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:50.647568"
+    },
+    {
+        "id": 429,
+        "tankId": 31,
+        "name": "tmp",
+        "deviceId": 31,
+        "code": "tmp/1",
+        "value": 24.37,
+        "unit": "N/A",
+        "date": "2025-08-08T13:11:52.866006"
     }
 ]
