@@ -13,7 +13,7 @@ from Clases.metodos import (
 # ===============================
 # 🔧 CONFIGURACIONES GLOBALES
 # ===============================
-puerto_serial = "COM6"  # Cambiar según tu puerto
+puerto_serial = "COM5"  # Cambiar según tu puerto
 config_file = "Jsons_DATA/user_configs.json"
 broker = '13.59.132.191'
 port = 1883
@@ -25,8 +25,8 @@ topic = 'conf/uuid/code'
 def enviar_comando_a_arduino(codigo, puerto=puerto_serial):
     """Enviar comando al Arduino por serial."""
     try:
-        with serial.Serial(puerto, 9600, timeout=3) as arduino:
-            time.sleep(3)  # Esperar inicialización
+        with serial.Serial(puerto, 115200, timeout=3) as arduino:
+            time.sleep(5)  # Esperar inicialización
             arduino.write(f"{codigo}\n".encode())
             arduino.flush()
             print(f"⚡ Comando '{codigo}' enviado al Arduino")

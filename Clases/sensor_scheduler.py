@@ -1,139 +1,102 @@
 import json
 import threading
 import time
+import re
 from datetime import datetime
-from .arduino import leer_serial_una_vez
+from .arduino import guardar_dato  # Tu función que guarda en Mongo/historial
 
 class SensorScheduler:
     def __init__(self, puerto_serial="COM6", devices_file="Jsons_DATA/devices.json"):
         self.puerto_serial = puerto_serial
         self.devices_file = devices_file
-        self.sensor_threads = {}
         self.running = False
         self.devices = []
-        
+        self.hilo_lector = None
+
     def cargar_dispositivos(self):
-        """Carga los dispositivos desde el archivo JSON"""
+        """Carga la configuración de sensores desde el archivo JSON."""
         try:
             with open(self.devices_file, 'r', encoding='utf-8') as f:
                 self.devices = json.load(f)
             print(f"📱 Dispositivos cargados: {len(self.devices)}")
-            
-            # Mostrar información de cada dispositivo
             for device in self.devices:
-                interval = device.get('reading_interval', 300)
-                name = device.get('name', 'Desconocido')
-                code = device.get('code', 'N/A')
-                print(f"   🔄 {name} ({code}): cada {interval}s ({interval/60:.1f} min)")
-                
+                print(f"   🔄 {device.get('name', 'Desconocido')} ({device.get('code')}): cada {device.get('reading_interval', 300)}s")
         except FileNotFoundError:
-            print(f"❌ No se encontró el archivo de dispositivos: {self.devices_file}")
+            print(f"❌ No se encontró {self.devices_file}")
             self.devices = []
         except Exception as e:
             print(f"❌ Error cargando dispositivos: {e}")
             self.devices = []
-    
-    def crear_hilo_sensor(self, device):
-        """Crea un hilo para leer un sensor específico con su intervalo"""
-        def leer_sensor_periodico():
-            sensor_code = device.get('code')
-            interval = device.get('reading_interval', 300)
-            name = device.get('name', 'Sensor')
-            
-            print(f"🚀 Iniciando hilo para {name} ({sensor_code}) - Intervalo: {interval}s")
-            
+
+    def hilo_lectura_serial(self):
+        """Hilo único que lee TODAS las lecturas de Arduino y las guarda."""
+        import serial
+
+        try:
+            ser = serial.Serial(self.puerto_serial, 9600, timeout=1)
+            print(f"📡 Escuchando en {self.puerto_serial}...")
+
             while self.running:
                 try:
-                    print(f"📊 Leyendo {name} ({sensor_code})...")
-                    
-                    # Usar la función existente de arduino.py pero filtrar por sensor específico
-                    leer_serial_una_vez(
-                        puerto=self.puerto_serial,
-                        timeout_lectura=30,  # Timeout más corto para lecturas específicas
-                        sensor_filter=sensor_code  # Filtrar solo este sensor
-                    )
-                    
-                    print(f"✅ Lectura de {name} completada. Próxima en {interval}s")
-                    
+                    linea = ser.readline().decode(errors="ignore").strip()
+                    if not linea:
+                        continue
+
+                    print(f"📨 Recibido: {linea}")
+
+                    match = re.match(r"([^:]+):(.+)", linea)
+                    if match:
+                        sensor_code = match.group(1)  # ej: tmp/1 o nivel/1
+                        valor = match.group(2)
+
+                        # Guardar dato usando tu función existente
+                        guardar_dato(sensor_code, valor)
+
                 except Exception as e:
-                    print(f"❌ Error leyendo {name}: {e}")
-                
-                # Esperar el intervalo específico de este sensor
-                time.sleep(interval)
-        
-        return threading.Thread(target=leer_sensor_periodico, daemon=True)
-    
+                    print(f"❌ Error en lectura serial: {e}")
+                    time.sleep(1)
+
+        except Exception as e:
+            print(f"❌ No se pudo abrir {self.puerto_serial}: {e}")
+
     def iniciar_programacion(self):
-        """Inicia todos los hilos de sensores con sus intervalos específicos"""
+        """Inicia el hilo único de lectura."""
         if self.running:
             print("⚠️ El programador ya está en ejecución")
             return
-            
+
         self.cargar_dispositivos()
-        
         if not self.devices:
-            print("❌ No hay dispositivos para programar")
+            print("⚠️ No hay dispositivos configurados")
             return
-        
+
         self.running = True
-        print(f"🚀 Iniciando programador de sensores para {len(self.devices)} dispositivos...")
-        
-        # Crear un hilo para cada sensor
-        for device in self.devices:
-            sensor_code = device.get('code')
-            if sensor_code:
-                hilo = self.crear_hilo_sensor(device)
-                self.sensor_threads[sensor_code] = hilo
-                hilo.start()
-        
-        print(f"✅ {len(self.sensor_threads)} hilos de sensores iniciados")
-        
+        print("🚀 Iniciando lector único de sensores...")
+
+        self.hilo_lector = threading.Thread(target=self.hilo_lectura_serial, daemon=True)
+        self.hilo_lector.start()
+
     def detener_programacion(self):
-        """Detiene todos los hilos de sensores"""
-        print("🛑 Deteniendo programador de sensores...")
+        """Detiene el hilo de lectura."""
+        print("🛑 Deteniendo lector de sensores...")
         self.running = False
-        
-        # Esperar a que todos los hilos terminen
-        for sensor_code, hilo in self.sensor_threads.items():
-            if hilo.is_alive():
-                print(f"   ⏳ Esperando a {sensor_code}...")
-                hilo.join(timeout=5)
-        
-        self.sensor_threads.clear()
-        print("✅ Programador de sensores detenido")
-    
+        if self.hilo_lector and self.hilo_lector.is_alive():
+            self.hilo_lector.join(timeout=5)
+        print("✅ Lector de sensores detenido")
+
     def obtener_estado(self):
-        """Obtiene el estado actual del programador"""
-        hilos_activos = sum(1 for hilo in self.sensor_threads.values() if hilo.is_alive())
-        
+        """Devuelve el estado del lector."""
         return {
             "running": self.running,
             "total_devices": len(self.devices),
-            "active_threads": hilos_activos,
+            "active_threads": 1 if self.hilo_lector and self.hilo_lector.is_alive() else 0,
             "sensors": [
                 {
-                    "code": device.get('code'),
-                    "name": device.get('name'),
-                    "interval": device.get('reading_interval', 300),
-                    "active": self.sensor_threads.get(device.get('code'), {}).is_alive() if device.get('code') in self.sensor_threads else False
+                    "code": d.get('code'),
+                    "name": d.get('name'),
+                    "interval": d.get('reading_interval', 300),
+                    "active": True
                 }
-                for device in self.devices
+                for d in self.devices
             ]
         }
-    
-    def recargar_dispositivos(self):
-        """Recarga los dispositivos y reinicia la programación"""
-        print("🔄 Recargando configuración de dispositivos...")
-        
-        # Detener hilos actuales
-        self.detener_programacion()
-        
-        # Recargar y reiniciar
-        time.sleep(1)  # Pequeña pausa
-        self.iniciar_programacion()
-
-# Función helper para usar desde main.py
-def iniciar_sensor_scheduler(puerto="COM6"):
-    """Función helper para iniciar el programador desde main.py"""
-    scheduler = SensorScheduler(puerto_serial=puerto)
-    return scheduler

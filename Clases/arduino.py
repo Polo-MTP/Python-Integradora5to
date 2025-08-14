@@ -221,6 +221,67 @@ def leer_serial_y_guardar(puerto='COM6', baudios=9600, archivo_salida="Jsons_DAT
             arduino.close()
             print("🔌 Conexión serial cerrada")
 
+def guardar_dato(sensor_code, valor, 
+                 archivo_salida="Jsons_DATA/data_sensores_online.json", 
+                 archivo_historial="Jsons_DATA/data_sensores_local.json"):
+    mapa = cargar_mapa_dispositivos()
+
+    if sensor_code in mapa:
+        try:
+            valor = float(valor)
+        except ValueError:
+            print("❌ Valor no numérico.")
+            return
+        
+        fecha = datetime.now().isoformat()
+        datos_online = cargar_datos_existentes(archivo_salida)
+        datos_historial = cargar_datos_existentes(archivo_historial)
+
+        id_online = obtener_siguiente_id(datos_online)
+        id_historial = obtener_siguiente_id(datos_historial)
+
+        nuevo_dato_online = {
+            "id": id_online,
+            "id_tank": mapa[sensor_code],
+            "sensor": sensor_code.split("/")[0],
+            "deviceId": mapa[sensor_code],
+            "code": sensor_code,
+            "value": valor,
+            "unit": "N/A",
+            "date": fecha,
+            "synced": False
+        }
+
+        nuevo_dato_historial = {
+            "id": id_historial,
+            "tankId": mapa[sensor_code],
+            "name": sensor_code.split("/")[0],
+            "deviceId": mapa[sensor_code],
+            "code": sensor_code,
+            "value": valor,
+            "unit": "N/A",
+            "date": fecha
+        }
+
+        # Guardar en archivo online
+        datos_online.append(nuevo_dato_online)
+        with open(archivo_salida, "w", encoding="utf-8") as f:
+            json.dump(datos_online, f, indent=4, ensure_ascii=False)
+        
+        # Guardar en archivo historial
+        datos_historial.append(nuevo_dato_historial)
+        with open(archivo_historial, "w", encoding="utf-8") as f:
+            json.dump(datos_historial, f, indent=4, ensure_ascii=False)
+
+        print(f"✅ Guardado en online: {nuevo_dato_online}")
+        print(f"✅ Guardado en historial: {nuevo_dato_historial}")
+        print(f"📊 Total datos online: {len(datos_online)} | Historial: {len(datos_historial)}")
+
+    else:
+        print(f"❌ Sensor desconocido: {sensor_code}")
+
+
+
 # Punto de entrada
 if __name__ == "__main__":
     leer_serial_y_guardar()
