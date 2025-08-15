@@ -16,6 +16,108 @@ def cargar_mapa_dispositivos(path="Jsons_DATA/devices.json"):
     # El mapa tendrá como clave el 'code' (ej. "temp/1") y como valor el id del dispositivo
     return {d["code"]: d["id"] for d in lista}
 
+# Cargar mapa de alertas desde archivo JSON
+def cargar_mapa_alertas(path="Jsons_DATA/alertasMapa.json"):
+    """Carga el mapa de rangos de alerta desde el archivo JSON"""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"⚠️ Archivo de alertas no encontrado: {path}")
+        return {}
+    except Exception as e:
+        print(f"❌ Error cargando mapa de alertas: {e}")
+        return {}
+
+# Verificar si un valor está fuera del rango de alerta
+def verificar_alerta(sensor_code, valor, mapa_alertas):
+    """Verifica si un valor está fuera del rango definido para el sensor"""
+    if sensor_code not in mapa_alertas:
+        return False
+    
+    rango = mapa_alertas[sensor_code]
+    valor_min = rango.get("min")
+    valor_max = rango.get("max")
+    
+    # Si min o max son null, no hay restricción en ese extremo
+    if valor_min is not None and valor < valor_min:
+        return True
+    if valor_max is not None and valor > valor_max:
+        return True
+    
+    return False
+
+# Generar mensaje personalizado para la alerta
+def generar_mensaje_alerta(sensor_code, valor, rango):
+    """Genera un mensaje descriptivo para la alerta basado en el sensor y el rango"""
+    sensor_name = sensor_code.split("/")[0]
+    valor_min = rango.get("min")
+    valor_max = rango.get("max")
+    
+    # Mapear códigos de sensor a nombres legibles
+    nombres_sensores = {
+        "tmp": "Temperatura",
+        "phh": "pH", 
+        "niv": "Nivel de agua",
+        "tbz": "Turbidez",
+        "tds": "TDS"
+    }
+    
+    nombre_legible = nombres_sensores.get(sensor_name, sensor_name)
+    
+    # Determinar si está por encima o por debajo del rango
+    if valor_min is not None and valor < valor_min:
+        return f"{nombre_legible} muy baja: {valor} (mínimo: {valor_min})"
+    elif valor_max is not None and valor > valor_max:
+        return f"{nombre_legible} muy alta: {valor} (máximo: {valor_max})"
+    else:
+        return f"{nombre_legible} fuera de rango: {valor}"
+
+# Guardar dato de alerta
+def guardar_alerta(sensor_code, valor, mensaje="Valor fuera de rango", 
+                   archivo_alerta="Jsons_DATA/data_sesnsoresalerta_online.json"):
+    """Guarda un dato de alerta usando la estructura de la clase alerta"""
+    mapa = cargar_mapa_dispositivos()
+    
+    if sensor_code not in mapa:
+        print(f"❌ Sensor desconocido para alerta: {sensor_code}")
+        return
+    
+    try:
+        valor = float(valor)
+    except ValueError:
+        print("❌ Valor no numérico para alerta.")
+        return
+    
+    # Cargar alertas existentes
+    datos_alertas = cargar_datos_existentes(archivo_alerta)
+    
+    # Generar ID para la alerta
+    id_alerta = obtener_siguiente_id(datos_alertas)
+    fecha = datetime.now().isoformat()
+    
+    # Crear alerta siguiendo la estructura de la clase alerta
+    nueva_alerta = {
+        "id": id_alerta,
+        "tankId": mapa[sensor_code],
+        "deviceId": mapa[sensor_code],
+        "code": sensor_code,
+        "value": valor,
+        "message": mensaje,
+        "date": fecha,
+        "synced": False
+    }
+    
+    # Guardar en archivo de alertas
+    datos_alertas.append(nueva_alerta)
+    with open(archivo_alerta, "w", encoding="utf-8") as f:
+        json.dump(datos_alertas, f, indent=4, ensure_ascii=False)
+    
+    print(f"🚨 ALERTA GUARDADA: {sensor_code} = {valor} - {mensaje}")
+    print(f"📊 Total alertas: {len(datos_alertas)}")
+    
+    return nueva_alerta
+
 # Cargar datos existentes del archivo de salida
 def cargar_datos_existentes(archivo_salida):
     try:
@@ -276,6 +378,17 @@ def guardar_dato(sensor_code, valor,
         print(f"✅ Guardado en online: {nuevo_dato_online}")
         print(f"✅ Guardado en historial: {nuevo_dato_historial}")
         print(f"📊 Total datos online: {len(datos_online)} | Historial: {len(datos_historial)}")
+        
+        # 🚨 VERIFICAR ALERTAS AUTOMÁTICAMENTE
+        mapa_alertas = cargar_mapa_alertas()
+        if verificar_alerta(sensor_code, valor, mapa_alertas):
+            # Determinar el tipo de alerta
+            rango = mapa_alertas[sensor_code]
+            mensaje = generar_mensaje_alerta(sensor_code, valor, rango)
+            
+            # Guardar la alerta
+            guardar_alerta(sensor_code, valor, mensaje)
+            print(f"🚨 ALERTA GENERADA: {sensor_code} = {valor} - {mensaje}")
 
     else:
         print(f"❌ Sensor desconocido: {sensor_code}")

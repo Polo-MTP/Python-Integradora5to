@@ -1,1 +1,57 @@
-[]
+[
+    {
+        "id": 1,
+        "id_tank": 8,
+        "sensor": "tmp",
+        "deviceId": 8,
+        "code": "tmp/1",
+        "value": 19.8,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:30.896622",
+        "synced": false
+    },
+    {
+        "id": 2,
+        "id_tank": 7,
+        "sensor": "niv",
+        "deviceId": 7,
+        "code": "niv/1",
+        "value": 1000.0,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:30.945953",
+        "synced": false
+    },
+    {
+        "id": 3,
+        "id_tank": 9,
+        "sensor": "tbz",
+        "deviceId": 9,
+        "code": "tbz/1",
+        "value": 600.4,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:30.997070",
+        "synced": false
+    },
+    {
+        "id": 4,
+        "id_tank": 6,
+        "sensor": "phh",
+        "deviceId": 6,
+        "code": "phh/1",
+        "value": 7.4,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:31.046704",
+        "synced": false
+    },
+    {
+        "id": 5,
+        "id_tank": 10,
+        "sensor": "tds",
+        "deviceId": 10,
+        "code": "tds/1",
+        "value": 380.7,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:31.117727",
+        "synced": false
+    }
+]

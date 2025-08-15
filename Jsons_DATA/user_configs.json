@@ -1,24 +1,6 @@
 [
     {
         "code": "on",
-        "config_type": "luz",
-        "config_value": "17:45",
-        "config_day": "2025-08-14"
-    },
-    {
-        "code": "on",
-        "config_type": "encender luz",
-        "config_value": "17:00",
-        "config_day": "2025-08-25"
-    },
-    {
-        "code": "on",
-        "config_type": "luz",
-        "config_value": "10:50",
-        "config_day": "2025-08-15"
-    },
-    {
-        "code": "on",
         "config_type": "encender luz",
         "config_value": "17:10",
         "config_day": "2025-08-27"
@@ -34,5 +16,29 @@
         "config_type": "comida",
         "config_value": "18:15",
         "config_day": "2025-09-05"
+    },
+    {
+        "code": "on",
+        "config_type": "encender luz",
+        "config_value": "19:43",
+        "config_day": "2025-08-15"
+    },
+    {
+        "code": "on",
+        "config_type": "encender luz",
+        "config_value": "20:43",
+        "config_day": "2025-08-15"
+    },
+    {
+        "code": "food",
+        "config_type": "comida",
+        "config_value": "19:45",
+        "config_day": "2025-08-16"
+    },
+    {
+        "code": "on",
+        "config_type": "luz",
+        "config_value": "19:58",
+        "config_day": "2025-08-17"
     }
 ]

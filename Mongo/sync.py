@@ -9,8 +9,10 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from .mongo import MongoDb
 from Clases.lista import Lista
 from Clases.dataSensores import dataSensores
+from Clases.alerta import Alerta
 
 ARCHIVO_LOCAL = "Jsons_DATA/data_sensores_local.json"
+ARCHIVO_ALERTAS = "Jsons_DATA/data_sesnsoresalerta_online.json"
 
 class SyncManager:
     def __init__(self, archivo_local=ARCHIVO_LOCAL):
@@ -143,6 +145,57 @@ def cargar_datos_locales():
     sync_manager = SyncManager()
     return sync_manager.cargar_datos_locales()
 
+def sincronizar_alertas(archivo_alertas=ARCHIVO_ALERTAS):
+    """Sincroniza alertas con MongoDB en la colección 'alertas'"""
+    print("🚨 Iniciando sincronización de alertas...")
+    
+    try:
+        # Inicializar conexión MongoDB específica para alertas
+        mongo = MongoDb()
+        # Cambiar a la colección de alertas
+        mongo.collection = mongo.db["alertas"]
+        
+        # Cargar alertas del archivo
+        if not os.path.exists(archivo_alertas):
+            print("📁 No hay archivo de alertas para sincronizar")
+            return
+        
+        with open(archivo_alertas, "r", encoding="utf-8") as f:
+            contenido = f.read().strip()
+            if not contenido:
+                print("📁 Archivo de alertas vacío")
+                return
+            alertas_data = json.loads(contenido)
+        
+        if not alertas_data:
+            print("📁 No hay alertas para sincronizar")
+            return
+        
+        # Filtrar alertas no sincronizadas
+        alertas_no_sync = [alerta for alerta in alertas_data if not alerta.get("synced", False)]
+        
+        if not alertas_no_sync:
+            print("⏳ No hay alertas nuevas para sincronizar")
+            return
+        
+        print(f"🚨 Subiendo {len(alertas_no_sync)} alertas a MongoDB...")
+        
+        # Preparar datos para MongoDB (remover campo 'synced')
+        alertas_mongo = [{k: v for k, v in alerta.items() if k != "synced"} for alerta in alertas_no_sync]
+        
+        # Insertar en MongoDB
+        mongo.insertar_documentos(alertas_mongo)
+        print(f"✅ {len(alertas_mongo)} alertas insertadas en MongoDB colección 'alertas'")
+        
+        # Limpiar archivo de alertas después de sincronizar exitosamente
+        with open(archivo_alertas, "w", encoding="utf-8") as f:
+            json.dump([], f, indent=4, ensure_ascii=False)
+        print(f"🗑️ Archivo de alertas limpiado - {len(alertas_mongo)} alertas procesadas")
+        
+    except Exception as e:
+        print(f"❌ Error sincronizando alertas: {e}")
+        print("⚠️ Alertas NO fueron eliminadas del archivo")
+
 def sincronizar_a_mongo(archivo_online="Jsons_DATA/data_sensores_online.json"):
     print("🚀 Iniciando servicio de sincronización con SyncManager...")
     
@@ -159,6 +212,12 @@ def sincronizar_a_mongo(archivo_online="Jsons_DATA/data_sensores_online.json"):
             print("\n" + "="*60)
             print("🔄 Iniciando ciclo de sincronización")
             
+            # 🚨 SINCRONIZAR ALERTAS PRIMERO
+            print("\n🚨 === SINCRONIZACIÓN DE ALERTAS ===")
+            sincronizar_alertas()
+            
+            # 📊 LUEGO SINCRONIZAR DATOS DE SENSORES
+            print("\n📊 === SINCRONIZACIÓN DE DATOS ===")
             lista_datos = Lista(dataSensores)
             lista_datos.cargar(archivo_online)
             

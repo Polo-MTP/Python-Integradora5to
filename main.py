@@ -8,7 +8,7 @@ import time
 # ===============================
 # 🔧 CONFIGURACIONES GLOBALES
 # ===============================
-puerto_serial = "COM6"  # Cambiar según tu puerto
+puerto_serial = "COM7"  # Cambiar según tu puerto
 
 # ===============================
 # 🚀 FUNCIÓN PRINCIPAL

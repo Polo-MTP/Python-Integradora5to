@@ -5,9 +5,9 @@
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 22.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:28.595510"
+        "date": "2025-08-15T00:52:21.543847"
     },
     {
         "id": 2,
@@ -15,9 +15,9 @@
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 180.0,
+        "value": 1500.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:28.642768"
+        "date": "2025-08-15T00:52:21.627775"
     },
     {
         "id": 3,
@@ -25,9 +25,9 @@
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1359.4,
+        "value": 650.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:28.749826"
+        "date": "2025-08-15T00:52:21.674562"
     },
     {
         "id": 4,
@@ -35,9 +35,9 @@
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 7.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:28.848823"
+        "date": "2025-08-15T00:52:21.703312"
     },
     {
         "id": 5,
@@ -45,9 +45,9 @@
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 8.6,
+        "value": 245.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:28.896952"
+        "date": "2025-08-15T00:52:21.765453"
     },
     {
         "id": 6,
@@ -55,9 +55,9 @@
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 20.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:31.016113"
+        "date": "2025-08-15T00:52:24.819563"
     },
     {
         "id": 7,
@@ -65,9 +65,9 @@
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 180.0,
+        "value": 800.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:31.063858"
+        "date": "2025-08-15T00:52:24.867210"
     },
     {
         "id": 8,
@@ -75,9 +75,9 @@
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1359.4,
+        "value": 450.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:31.166861"
+        "date": "2025-08-15T00:52:24.919528"
     },
     {
         "id": 9,
@@ -85,9 +85,9 @@
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 6.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:31.267975"
+        "date": "2025-08-15T00:52:24.969097"
     },
     {
         "id": 10,
@@ -95,9 +95,9 @@
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 8.6,
+        "value": 180.3,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:31.317248"
+        "date": "2025-08-15T00:52:25.040088"
     },
     {
         "id": 11,
@@ -105,9 +105,9 @@
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 15.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:33.431757"
+        "date": "2025-08-15T00:52:28.111187"
     },
     {
         "id": 12,
@@ -115,9 +115,9 @@
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 179.0,
+        "value": 150.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:33.481411"
+        "date": "2025-08-15T00:52:29.118704"
     },
     {
         "id": 13,
@@ -125,9 +125,9 @@
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1358.7,
+        "value": 250.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:33.586240"
+        "date": "2025-08-15T00:52:30.128100"
     },
     {
         "id": 14,
@@ -135,9 +135,9 @@
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 3.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:33.684842"
+        "date": "2025-08-15T00:52:31.136300"
     },
     {
         "id": 15,
@@ -145,9 +145,9 @@
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 12.8,
+        "value": 520.7,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:33.740012"
+        "date": "2025-08-15T00:52:32.148539"
     },
     {
         "id": 16,
@@ -155,9 +155,9 @@
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 24.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:35.851689"
+        "date": "2025-08-15T00:52:32.162880"
     },
     {
         "id": 17,
@@ -165,9 +165,9 @@
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 179.0,
+        "value": 1200.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:35.900231"
+        "date": "2025-08-15T00:52:32.209538"
     },
     {
         "id": 18,
@@ -175,9 +175,9 @@
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1359.4,
+        "value": 750.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:36.002965"
+        "date": "2025-08-15T00:52:32.242305"
     },
     {
         "id": 19,
@@ -185,9 +185,9 @@
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 8.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:36.107343"
+        "date": "2025-08-15T00:52:32.276856"
     },
     {
         "id": 20,
@@ -195,9 +195,9 @@
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 12.8,
+        "value": 95.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:36.155574"
+        "date": "2025-08-15T00:52:32.309710"
     },
     {
         "id": 21,
@@ -205,9 +205,9 @@
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 29.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:38.268179"
+        "date": "2025-08-15T00:52:34.677622"
     },
     {
         "id": 22,
@@ -215,9 +215,9 @@
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 178.0,
+        "value": 2500.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:38.317204"
+        "date": "2025-08-15T00:52:35.692485"
     },
     {
         "id": 23,
@@ -225,9 +225,9 @@
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1359.4,
+        "value": 1200.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:38.424011"
+        "date": "2025-08-15T00:52:36.701894"
     },
     {
         "id": 24,
@@ -235,9 +235,9 @@
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 11.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:38.522898"
+        "date": "2025-08-15T00:52:37.706638"
     },
     {
         "id": 25,
@@ -245,9 +245,9 @@
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 8.6,
+        "value": 800.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:38.571754"
+        "date": "2025-08-15T00:52:38.713617"
     },
     {
         "id": 26,
@@ -255,2558 +255,508 @@
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 18.7,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:40.690280"
+        "date": "2025-08-15T00:52:38.734565"
     },
     {
         "id": 27,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 177.0,
+        "tankId": 8,
+        "name": "tmp",
+        "deviceId": 8,
+        "code": "tmp/1",
+        "value": 22.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:40.738333"
+        "date": "2025-08-15T00:54:01.020894"
     },
     {
         "id": 28,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1357.5,
+        "tankId": 7,
+        "name": "niv",
+        "deviceId": 7,
+        "code": "niv/1",
+        "value": 1500.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:40.841795"
+        "date": "2025-08-15T00:54:01.071218"
     },
     {
         "id": 29,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
+        "tankId": 9,
+        "name": "tbz",
+        "deviceId": 9,
+        "code": "tbz/1",
+        "value": 650.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:40.942277"
+        "date": "2025-08-15T00:54:01.122387"
     },
     {
         "id": 30,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
+        "tankId": 6,
+        "name": "phh",
+        "deviceId": 6,
+        "code": "phh/1",
+        "value": 7.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:40.992220"
+        "date": "2025-08-15T00:54:01.172297"
     },
     {
         "id": 31,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
+        "tankId": 10,
+        "name": "tds",
+        "deviceId": 10,
+        "code": "tds/1",
+        "value": 245.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:43.106144"
+        "date": "2025-08-15T00:54:01.242445"
     },
     {
         "id": 32,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 177.0,
+        "tankId": 8,
+        "name": "tmp",
+        "deviceId": 8,
+        "code": "tmp/1",
+        "value": 20.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:43.157235"
+        "date": "2025-08-15T00:54:04.296215"
     },
     {
         "id": 33,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1360.0,
+        "tankId": 7,
+        "name": "niv",
+        "deviceId": 7,
+        "code": "niv/1",
+        "value": 800.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:43.288128"
+        "date": "2025-08-15T00:54:04.345574"
     },
     {
         "id": 34,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
+        "tankId": 9,
+        "name": "tbz",
+        "deviceId": 9,
+        "code": "tbz/1",
+        "value": 450.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:43.359492"
+        "date": "2025-08-15T00:54:04.397288"
     },
     {
         "id": 35,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
+        "tankId": 6,
+        "name": "phh",
+        "deviceId": 6,
+        "code": "phh/1",
+        "value": 6.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:43.412334"
+        "date": "2025-08-15T00:54:04.446871"
     },
     {
         "id": 36,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
+        "tankId": 10,
+        "name": "tds",
+        "deviceId": 10,
+        "code": "tds/1",
+        "value": 180.3,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:45.525609"
+        "date": "2025-08-15T00:54:04.525243"
     },
     {
         "id": 37,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 176.0,
+        "tankId": 8,
+        "name": "tmp",
+        "deviceId": 8,
+        "code": "tmp/1",
+        "value": 15.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:56:45.574836"
+        "date": "2025-08-15T00:54:07.590113"
     },
     {
         "id": 38,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:45.677010"
-    },
-    {
-        "id": 39,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:45.780069"
-    },
-    {
-        "id": 40,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:45.828908"
-    },
-    {
-        "id": 41,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:47.942474"
-    },
-    {
-        "id": 42,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 175.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:47.992041"
-    },
-    {
-        "id": 43,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1355.7,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:48.099396"
-    },
-    {
-        "id": 44,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:48.196924"
-    },
-    {
-        "id": 45,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:48.245893"
-    },
-    {
-        "id": 46,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:50.364164"
-    },
-    {
-        "id": 47,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 174.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:50.412962"
-    },
-    {
-        "id": 48,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1358.7,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:50.515155"
-    },
-    {
-        "id": 49,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:50.658846"
-    },
-    {
-        "id": 50,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:50.672146"
-    },
-    {
-        "id": 51,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:52.817667"
-    },
-    {
-        "id": 52,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 173.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:52.829720"
-    },
-    {
-        "id": 53,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1357.5,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:52.934940"
-    },
-    {
-        "id": 54,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:53.033291"
-    },
-    {
-        "id": 55,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:53.087753"
-    },
-    {
-        "id": 56,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:55.200015"
-    },
-    {
-        "id": 57,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 172.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:55.249601"
-    },
-    {
-        "id": 58,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1356.9,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:55.352265"
-    },
-    {
-        "id": 59,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:55.455578"
-    },
-    {
-        "id": 60,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:55.503097"
-    },
-    {
-        "id": 61,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:57.621592"
-    },
-    {
-        "id": 62,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 171.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:57.666564"
-    },
-    {
-        "id": 63,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1355.1,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:57.772268"
-    },
-    {
-        "id": 64,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:57.870733"
-    },
-    {
-        "id": 65,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:56:57.924164"
-    },
-    {
-        "id": 66,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:00.041184"
-    },
-    {
-        "id": 67,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 170.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:00.087178"
-    },
-    {
-        "id": 68,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1355.7,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:00.192729"
-    },
-    {
-        "id": 69,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:00.292762"
-    },
-    {
-        "id": 70,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:00.341893"
-    },
-    {
-        "id": 71,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:02.458207"
-    },
-    {
-        "id": 72,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 170.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:02.503624"
-    },
-    {
-        "id": 73,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.9,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:02.609456"
-    },
-    {
-        "id": 74,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:02.708886"
-    },
-    {
-        "id": 75,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:02.761179"
-    },
-    {
-        "id": 76,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:04.874671"
-    },
-    {
-        "id": 77,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 169.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:04.924243"
-    },
-    {
-        "id": 78,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.9,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:05.030404"
-    },
-    {
-        "id": 79,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:05.129310"
-    },
-    {
-        "id": 80,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:05.177654"
-    },
-    {
-        "id": 81,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:07.295787"
-    },
-    {
-        "id": 82,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 168.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:07.345460"
-    },
-    {
-        "id": 83,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1354.5,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:07.448829"
-    },
-    {
-        "id": 84,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:07.549585"
-    },
-    {
-        "id": 85,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:07.598765"
-    },
-    {
-        "id": 86,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:09.712636"
-    },
-    {
-        "id": 87,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 168.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:09.761322"
-    },
-    {
-        "id": 88,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1364.2,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:09.867598"
-    },
-    {
-        "id": 89,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:09.965932"
-    },
-    {
-        "id": 90,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:10.016557"
-    },
-    {
-        "id": 91,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:12.132989"
-    },
-    {
-        "id": 92,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 167.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:12.184029"
-    },
-    {
-        "id": 93,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1365.5,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:12.284907"
-    },
-    {
-        "id": 94,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:12.387043"
-    },
-    {
-        "id": 95,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:12.435908"
-    },
-    {
-        "id": 96,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:14.550158"
-    },
-    {
-        "id": 97,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 166.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:14.599242"
-    },
-    {
-        "id": 98,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1360.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:14.706818"
-    },
-    {
-        "id": 99,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:14.803994"
-    },
-    {
-        "id": 100,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:14.856697"
-    },
-    {
-        "id": 101,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.81,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:16.969951"
-    },
-    {
-        "id": 102,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 165.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:17.019937"
-    },
-    {
-        "id": 103,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1365.5,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:17.122784"
-    },
-    {
-        "id": 104,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:17.224217"
-    },
-    {
-        "id": 105,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:17.273909"
-    },
-    {
-        "id": 106,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:19.387609"
-    },
-    {
-        "id": 107,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 164.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:19.435920"
-    },
-    {
-        "id": 108,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:19.542218"
-    },
-    {
-        "id": 109,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:19.641228"
-    },
-    {
-        "id": 110,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:19.694197"
-    },
-    {
-        "id": 111,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:21.807556"
-    },
-    {
-        "id": 112,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 163.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:21.856274"
-    },
-    {
-        "id": 113,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:21.958850"
-    },
-    {
-        "id": 114,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:22.061562"
-    },
-    {
-        "id": 115,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:22.125127"
-    },
-    {
-        "id": 116,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:24.224193"
-    },
-    {
-        "id": 117,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:24.273313"
-    },
-    {
-        "id": 118,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:24.381530"
-    },
-    {
-        "id": 119,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:24.478335"
-    },
-    {
-        "id": 120,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:24.535018"
-    },
-    {
-        "id": 121,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:26.645403"
-    },
-    {
-        "id": 122,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:26.694004"
-    },
-    {
-        "id": 123,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:26.798214"
-    },
-    {
-        "id": 124,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:26.897872"
-    },
-    {
-        "id": 125,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:26.947316"
-    },
-    {
-        "id": 126,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:29.062008"
-    },
-    {
-        "id": 127,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 163.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:29.110981"
-    },
-    {
-        "id": 128,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:29.217017"
-    },
-    {
-        "id": 129,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:29.317811"
-    },
-    {
-        "id": 130,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:29.385181"
-    },
-    {
-        "id": 131,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:31.481533"
-    },
-    {
-        "id": 132,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 163.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:31.530352"
-    },
-    {
-        "id": 133,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1361.2,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:31.632889"
-    },
-    {
-        "id": 134,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:31.735285"
-    },
-    {
-        "id": 135,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:31.784572"
-    },
-    {
-        "id": 136,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:33.903012"
-    },
-    {
-        "id": 137,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:33.948867"
-    },
-    {
-        "id": 138,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1363.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:34.054620"
-    },
-    {
-        "id": 139,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:34.152189"
-    },
-    {
-        "id": 140,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:34.207024"
-    },
-    {
-        "id": 141,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:36.319980"
-    },
-    {
-        "id": 142,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 163.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:36.368599"
-    },
-    {
-        "id": 143,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1363.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:36.474173"
-    },
-    {
-        "id": 144,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:36.572952"
-    },
-    {
-        "id": 145,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:36.636348"
-    },
-    {
-        "id": 146,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:38.739579"
-    },
-    {
-        "id": 147,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:38.784497"
-    },
-    {
-        "id": 148,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1360.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:38.891109"
-    },
-    {
-        "id": 149,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:38.989211"
-    },
-    {
-        "id": 150,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:39.042331"
-    },
-    {
-        "id": 151,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:41.155996"
-    },
-    {
-        "id": 152,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:41.205139"
-    },
-    {
-        "id": 153,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1365.5,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:41.312852"
-    },
-    {
-        "id": 154,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:41.410059"
-    },
-    {
-        "id": 155,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:41.458499"
-    },
-    {
-        "id": 156,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:43.577071"
-    },
-    {
-        "id": 157,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:43.625748"
-    },
-    {
-        "id": 158,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:43.728206"
-    },
-    {
-        "id": 159,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:43.825993"
-    },
-    {
-        "id": 160,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:43.879535"
-    },
-    {
-        "id": 161,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:45.993393"
-    },
-    {
-        "id": 162,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 163.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:46.042789"
-    },
-    {
-        "id": 163,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1358.7,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:46.149044"
-    },
-    {
-        "id": 164,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:46.247263"
-    },
-    {
-        "id": 165,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:46.316825"
-    },
-    {
-        "id": 166,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:48.414037"
-    },
-    {
-        "id": 167,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 164.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:48.462954"
-    },
-    {
-        "id": 168,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.3,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:48.565087"
-    },
-    {
-        "id": 169,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:48.667703"
-    },
-    {
-        "id": 170,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:48.716906"
-    },
-    {
-        "id": 171,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:50.830651"
-    },
-    {
-        "id": 172,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 164.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:50.880467"
-    },
-    {
-        "id": 173,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.9,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:50.986251"
-    },
-    {
-        "id": 174,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:51.083806"
-    },
-    {
-        "id": 175,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:51.132856"
-    },
-    {
-        "id": 176,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:53.250994"
-    },
-    {
-        "id": 177,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 163.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:53.300097"
-    },
-    {
-        "id": 178,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.3,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:53.402321"
-    },
-    {
-        "id": 179,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:53.505024"
-    },
-    {
-        "id": 180,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:53.574489"
-    },
-    {
-        "id": 181,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:55.667363"
-    },
-    {
-        "id": 182,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 163.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:55.717077"
-    },
-    {
-        "id": 183,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.3,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:55.823068"
-    },
-    {
-        "id": 184,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:55.922643"
-    },
-    {
-        "id": 185,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:55.974380"
-    },
-    {
-        "id": 186,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:58.088379"
-    },
-    {
-        "id": 187,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:58.137809"
-    },
-    {
-        "id": 188,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.3,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:58.239893"
-    },
-    {
-        "id": 189,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:58.342072"
-    },
-    {
-        "id": 190,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:57:58.392629"
-    },
-    {
-        "id": 191,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:00.505924"
-    },
-    {
-        "id": 192,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:00.556417"
-    },
-    {
-        "id": 193,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.3,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:00.659745"
-    },
-    {
-        "id": 194,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:00.757967"
-    },
-    {
-        "id": 195,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:00.807408"
-    },
-    {
-        "id": 196,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:02.926002"
-    },
-    {
-        "id": 197,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 162.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:02.974184"
-    },
-    {
-        "id": 198,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.9,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:03.077219"
-    },
-    {
-        "id": 199,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:03.179276"
-    },
-    {
-        "id": 200,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:03.228412"
-    },
-    {
-        "id": 201,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:05.342759"
-    },
-    {
-        "id": 202,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 161.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:05.391382"
-    },
-    {
-        "id": 203,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1353.3,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:05.497602"
-    },
-    {
-        "id": 204,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:05.596625"
-    },
-    {
-        "id": 205,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:05.646522"
-    },
-    {
-        "id": 206,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:07.763041"
-    },
-    {
-        "id": 207,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 160.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:07.812818"
-    },
-    {
-        "id": 208,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1355.1,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:07.914178"
-    },
-    {
-        "id": 209,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:08.016162"
-    },
-    {
-        "id": 210,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:08.065616"
-    },
-    {
-        "id": 211,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:10.179484"
-    },
-    {
-        "id": 212,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 159.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:10.228707"
-    },
-    {
-        "id": 213,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:10.335024"
-    },
-    {
-        "id": 214,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:10.432830"
-    },
-    {
-        "id": 215,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:10.487464"
-    },
-    {
-        "id": 216,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:12.600456"
-    },
-    {
-        "id": 217,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 158.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:12.649615"
-    },
-    {
-        "id": 218,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:12.750932"
-    },
-    {
-        "id": 219,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:12.854280"
-    },
-    {
-        "id": 220,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:12.917963"
-    },
-    {
-        "id": 221,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:15.020705"
-    },
-    {
-        "id": 222,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 157.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:15.064988"
-    },
-    {
-        "id": 223,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1355.7,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:15.183546"
-    },
-    {
-        "id": 224,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:15.270598"
-    },
-    {
-        "id": 225,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:15.323248"
-    },
-    {
-        "id": 226,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.81,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:17.440160"
-    },
-    {
-        "id": 227,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 157.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:17.487784"
-    },
-    {
-        "id": 228,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1357.5,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:17.592072"
-    },
-    {
-        "id": 229,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:17.691295"
-    },
-    {
-        "id": 230,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:17.762401"
-    },
-    {
-        "id": 231,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:19.857837"
-    },
-    {
-        "id": 232,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 155.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:19.903317"
-    },
-    {
-        "id": 233,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:20.009304"
-    },
-    {
-        "id": 234,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:20.107431"
-    },
-    {
-        "id": 235,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:20.160821"
-    },
-    {
-        "id": 236,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:22.273982"
-    },
-    {
-        "id": 237,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 154.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:22.323599"
-    },
-    {
-        "id": 238,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:22.429726"
-    },
-    {
-        "id": 239,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:22.528387"
-    },
-    {
-        "id": 240,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:22.592275"
-    },
-    {
-        "id": 241,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:24.695563"
-    },
-    {
-        "id": 242,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 153.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:24.745559"
-    },
-    {
-        "id": 243,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:24.846347"
-    },
-    {
-        "id": 244,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:24.948885"
-    },
-    {
-        "id": 245,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 8.6,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:25.006199"
-    },
-    {
-        "id": 246,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:27.111560"
-    },
-    {
-        "id": 247,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 152.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:27.161488"
-    },
-    {
-        "id": 248,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:27.266592"
-    },
-    {
-        "id": 249,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:27.365606"
-    },
-    {
-        "id": 250,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:27.418754"
-    },
-    {
-        "id": 251,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:29.532365"
-    },
-    {
-        "id": 252,
-        "tankId": 7,
-        "name": "niv",
-        "deviceId": 7,
-        "code": "niv/1",
-        "value": 151.0,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:29.582501"
-    },
-    {
-        "id": 253,
-        "tankId": 9,
-        "name": "tbz",
-        "deviceId": 9,
-        "code": "tbz/1",
-        "value": 1359.4,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:29.683117"
-    },
-    {
-        "id": 254,
-        "tankId": 6,
-        "name": "phh",
-        "deviceId": 6,
-        "code": "phh/1",
-        "value": 7.41,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:29.786082"
-    },
-    {
-        "id": 255,
-        "tankId": 10,
-        "name": "tds",
-        "deviceId": 10,
-        "code": "tds/1",
-        "value": 12.8,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:29.858300"
-    },
-    {
-        "id": 256,
-        "tankId": 8,
-        "name": "tmp",
-        "deviceId": 8,
-        "code": "tmp/1",
-        "value": 23.75,
-        "unit": "N/A",
-        "date": "2025-08-14T16:58:31.947860"
-    },
-    {
-        "id": 257,
         "tankId": 7,
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
         "value": 150.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:31.997643"
+        "date": "2025-08-15T00:54:07.656139"
     },
     {
-        "id": 258,
+        "id": 39,
         "tankId": 9,
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1359.4,
+        "value": 250.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:32.105233"
+        "date": "2025-08-15T00:54:07.695750"
     },
     {
-        "id": 259,
+        "id": 40,
         "tankId": 6,
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 3.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:32.203074"
+        "date": "2025-08-15T00:54:07.757095"
     },
     {
-        "id": 260,
+        "id": 41,
         "tankId": 10,
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 8.6,
+        "value": 520.7,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:32.251806"
+        "date": "2025-08-15T00:54:07.823729"
     },
     {
-        "id": 261,
+        "id": 42,
         "tankId": 8,
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 24.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:34.369873"
+        "date": "2025-08-15T00:54:10.862111"
     },
     {
-        "id": 262,
+        "id": 43,
         "tankId": 7,
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 149.0,
+        "value": 1200.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:34.419088"
+        "date": "2025-08-15T00:54:10.910563"
     },
     {
-        "id": 263,
+        "id": 44,
         "tankId": 9,
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1353.3,
+        "value": 750.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:34.544381"
+        "date": "2025-08-15T00:54:10.964828"
     },
     {
-        "id": 264,
+        "id": 45,
         "tankId": 6,
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 8.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:34.623401"
+        "date": "2025-08-15T00:54:11.012522"
     },
     {
-        "id": 265,
+        "id": 46,
         "tankId": 10,
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 12.8,
+        "value": 95.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:34.671944"
+        "date": "2025-08-15T00:54:11.082130"
     },
     {
-        "id": 266,
+        "id": 47,
         "tankId": 8,
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 29.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:36.787287"
+        "date": "2025-08-15T00:54:14.154400"
     },
     {
-        "id": 267,
+        "id": 48,
         "tankId": 7,
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 148.0,
+        "value": 2500.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:36.835935"
+        "date": "2025-08-15T00:54:14.221329"
     },
     {
-        "id": 268,
+        "id": 49,
         "tankId": 9,
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1353.3,
+        "value": 1200.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:36.941003"
+        "date": "2025-08-15T00:54:14.257327"
     },
     {
-        "id": 269,
+        "id": 50,
         "tankId": 6,
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 11.2,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:37.039192"
+        "date": "2025-08-15T00:54:14.324095"
     },
     {
-        "id": 270,
+        "id": 51,
         "tankId": 10,
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 8.6,
+        "value": 800.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:37.088273"
+        "date": "2025-08-15T00:54:14.389497"
     },
     {
-        "id": 271,
+        "id": 52,
         "tankId": 8,
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 18.7,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:39.206938"
+        "date": "2025-08-15T00:54:17.762954"
     },
     {
-        "id": 272,
+        "id": 53,
         "tankId": 7,
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 147.0,
+        "value": 500.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:39.255308"
+        "date": "2025-08-15T00:54:17.810943"
     },
     {
-        "id": 273,
+        "id": 54,
         "tankId": 9,
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1353.3,
+        "value": 400.3,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:39.358039"
+        "date": "2025-08-15T00:54:17.862878"
     },
     {
-        "id": 274,
+        "id": 55,
         "tankId": 6,
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 6.5,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:39.460090"
+        "date": "2025-08-15T00:54:17.912498"
     },
     {
-        "id": 275,
+        "id": 56,
         "tankId": 10,
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 8.6,
+        "value": 310.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:39.509484"
+        "date": "2025-08-15T00:54:17.982575"
     },
     {
-        "id": 276,
+        "id": 57,
         "tankId": 8,
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 12.1,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:41.623870"
+        "date": "2025-08-15T00:54:21.055523"
     },
     {
-        "id": 277,
+        "id": 58,
         "tankId": 7,
         "name": "niv",
         "deviceId": 7,
         "code": "niv/1",
-        "value": 147.0,
+        "value": 80.0,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:41.673827"
+        "date": "2025-08-15T00:54:21.123013"
     },
     {
-        "id": 278,
+        "id": 59,
         "tankId": 9,
         "name": "tbz",
         "deviceId": 9,
         "code": "tbz/1",
-        "value": 1353.3,
+        "value": 150.7,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:41.779930"
+        "date": "2025-08-15T00:54:21.167781"
     },
     {
-        "id": 279,
+        "id": 60,
         "tankId": 6,
         "name": "phh",
         "deviceId": 6,
         "code": "phh/1",
-        "value": 7.41,
+        "value": 2.8,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:41.877628"
+        "date": "2025-08-15T00:54:21.223231"
     },
     {
-        "id": 280,
+        "id": 61,
         "tankId": 10,
         "name": "tds",
         "deviceId": 10,
         "code": "tds/1",
-        "value": 8.6,
+        "value": 45.6,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:41.949235"
+        "date": "2025-08-15T00:54:21.289220"
     },
     {
-        "id": 281,
+        "id": 62,
         "tankId": 8,
         "name": "tmp",
         "deviceId": 8,
         "code": "tmp/1",
-        "value": 23.75,
+        "value": 25.3,
         "unit": "N/A",
-        "date": "2025-08-14T16:58:44.045315"
+        "date": "2025-08-15T00:54:24.322293"
+    },
+    {
+        "id": 63,
+        "tankId": 7,
+        "name": "niv",
+        "deviceId": 7,
+        "code": "niv/1",
+        "value": 1800.0,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:24.372299"
+    },
+    {
+        "id": 64,
+        "tankId": 9,
+        "name": "tbz",
+        "deviceId": 9,
+        "code": "tbz/1",
+        "value": 850.1,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:24.423593"
+    },
+    {
+        "id": 65,
+        "tankId": 6,
+        "name": "phh",
+        "deviceId": 6,
+        "code": "phh/1",
+        "value": 7.9,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:24.473244"
+    },
+    {
+        "id": 66,
+        "tankId": 10,
+        "name": "tds",
+        "deviceId": 10,
+        "code": "tds/1",
+        "value": 650.9,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:24.544192"
+    },
+    {
+        "id": 67,
+        "tankId": 8,
+        "name": "tmp",
+        "deviceId": 8,
+        "code": "tmp/1",
+        "value": 31.2,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:27.615599"
+    },
+    {
+        "id": 68,
+        "tankId": 7,
+        "name": "niv",
+        "deviceId": 7,
+        "code": "niv/1",
+        "value": 3000.0,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:27.682564"
+    },
+    {
+        "id": 69,
+        "tankId": 9,
+        "name": "tbz",
+        "deviceId": 9,
+        "code": "tbz/1",
+        "value": 1500.2,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:27.731437"
+    },
+    {
+        "id": 70,
+        "tankId": 6,
+        "name": "phh",
+        "deviceId": 6,
+        "code": "phh/1",
+        "value": 12.5,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:27.785675"
+    },
+    {
+        "id": 71,
+        "tankId": 10,
+        "name": "tds",
+        "deviceId": 10,
+        "code": "tds/1",
+        "value": 1200.3,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:27.850148"
+    },
+    {
+        "id": 72,
+        "tankId": 8,
+        "name": "tmp",
+        "deviceId": 8,
+        "code": "tmp/1",
+        "value": 19.8,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:30.896622"
+    },
+    {
+        "id": 73,
+        "tankId": 7,
+        "name": "niv",
+        "deviceId": 7,
+        "code": "niv/1",
+        "value": 1000.0,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:30.945953"
+    },
+    {
+        "id": 74,
+        "tankId": 9,
+        "name": "tbz",
+        "deviceId": 9,
+        "code": "tbz/1",
+        "value": 600.4,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:30.997070"
+    },
+    {
+        "id": 75,
+        "tankId": 6,
+        "name": "phh",
+        "deviceId": 6,
+        "code": "phh/1",
+        "value": 7.4,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:31.046704"
+    },
+    {
+        "id": 76,
+        "tankId": 10,
+        "name": "tds",
+        "deviceId": 10,
+        "code": "tds/1",
+        "value": 380.7,
+        "unit": "N/A",
+        "date": "2025-08-15T00:54:31.117727"
     }
 ]
