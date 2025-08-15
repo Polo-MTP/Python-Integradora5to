@@ -13,7 +13,7 @@ from Clases.metodos import (
 # ===============================
 # 🔧 CONFIGURACIONES GLOBALES
 # ===============================
-puerto_serial = "COM5"  # Cambiar según tu puerto
+puerto_serial = "COM7"  # Cambiar según tu puerto
 config_file = "Jsons_DATA/user_configs.json"
 broker = '13.59.132.191'
 port = 1883

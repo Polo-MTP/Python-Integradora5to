@@ -1,44 +1,112 @@
 [
     {
-        "id": 31,
-        "tankId": 9,
-        "tank_id": 9,
+        "id": 9,
+        "tankId": 3,
+        "tank_id": 3,
         "code": "tmp/1",
         "name": "temperatura/1",
-        "createdAt": "2025-08-07T16:44:02.000-06:00",
-        "updatedAt": "2025-08-07T16:44:02.000-06:00",
-        "created_at": "2025-08-07T16:44:02.000-06:00",
-        "updated_at": "2025-08-07T16:44:02.000-06:00",
-        "sensor_type_id": 1,
+        "createdAt": "2025-08-14T17:15:18.000-06:00",
+        "updatedAt": "2025-08-14T17:15:18.000-06:00",
+        "created_at": "2025-08-14T17:15:18.000-06:00",
+        "updated_at": "2025-08-14T17:15:18.000-06:00",
+        "sensor_type_id": 3,
         "sensor_type": {
-            "id": 1,
-            "name": "temperaturaa",
+            "id": 3,
+            "name": "temperatura",
             "code": "tmp",
+            "reading_interval": null,
             "is_active": 1,
-            "created_at": "2025-07-22T19:13:12.000-06:00",
-            "updated_at": "2025-08-08T03:03:51.000-06:00"
+            "created_at": "2025-08-14T17:13:04.000-06:00",
+            "updated_at": "2025-08-14T17:13:04.000-06:00"
         },
-        "reading_interval": 300
+        "reading_interval": null
     },
     {
-        "id": 32,
-        "tankId": 9,
-        "tank_id": 9,
-        "code": "nivel/1",
-        "name": "nivel agua/1",
-        "createdAt": "2025-08-07T16:44:02.000-06:00",
-        "updatedAt": "2025-08-07T16:44:02.000-06:00",
-        "created_at": "2025-08-07T16:44:02.000-06:00",
-        "updated_at": "2025-08-07T16:44:02.000-06:00",
-        "sensor_type_id": 2,
+        "id": 10,
+        "tankId": 3,
+        "tank_id": 3,
+        "code": "tbz/1",
+        "name": "turbidez/1",
+        "createdAt": "2025-08-14T17:15:18.000-06:00",
+        "updatedAt": "2025-08-14T17:15:18.000-06:00",
+        "created_at": "2025-08-14T17:15:18.000-06:00",
+        "updated_at": "2025-08-14T17:15:18.000-06:00",
+        "sensor_type_id": 4,
         "sensor_type": {
-            "id": 2,
-            "name": "nivel agua",
-            "code": "nivel",
+            "id": 4,
+            "name": "turbidez",
+            "code": "tbz",
+            "reading_interval": null,
             "is_active": 1,
-            "created_at": "2025-07-22T19:13:25.000-06:00",
-            "updated_at": "2025-08-08T03:03:55.000-06:00"
+            "created_at": "2025-08-14T17:13:14.000-06:00",
+            "updated_at": "2025-08-14T17:13:14.000-06:00"
         },
-        "reading_interval": 300
+        "reading_interval": null
+    },
+    {
+        "id": 11,
+        "tankId": 3,
+        "tank_id": 3,
+        "code": "niv/1",
+        "name": "sensor nivel agua/1",
+        "createdAt": "2025-08-14T17:15:18.000-06:00",
+        "updatedAt": "2025-08-14T17:15:18.000-06:00",
+        "created_at": "2025-08-14T17:15:18.000-06:00",
+        "updated_at": "2025-08-14T17:15:18.000-06:00",
+        "sensor_type_id": 6,
+        "sensor_type": {
+            "id": 6,
+            "name": "sensor nivel agua",
+            "code": "niv",
+            "reading_interval": null,
+            "is_active": 1,
+            "created_at": "2025-08-14T17:13:33.000-06:00",
+            "updated_at": "2025-08-14T17:13:33.000-06:00"
+        },
+        "reading_interval": null
+    },
+    {
+        "id": 12,
+        "tankId": 3,
+        "tank_id": 3,
+        "code": "phh/1",
+        "name": "sensor ph/1",
+        "createdAt": "2025-08-14T17:15:18.000-06:00",
+        "updatedAt": "2025-08-14T17:15:18.000-06:00",
+        "created_at": "2025-08-14T17:15:18.000-06:00",
+        "updated_at": "2025-08-14T17:15:18.000-06:00",
+        "sensor_type_id": 5,
+        "sensor_type": {
+            "id": 5,
+            "name": "sensor ph",
+            "code": "phh",
+            "reading_interval": null,
+            "is_active": 1,
+            "created_at": "2025-08-14T17:13:24.000-06:00",
+            "updated_at": "2025-08-14T17:13:24.000-06:00"
+        },
+        "reading_interval": null
+    },
+    {
+        "id": 13,
+        "tankId": 3,
+        "tank_id": 3,
+        "code": "tds/1",
+        "name": "sensor tds/1",
+        "createdAt": "2025-08-14T17:15:18.000-06:00",
+        "updatedAt": "2025-08-14T17:15:18.000-06:00",
+        "created_at": "2025-08-14T17:15:18.000-06:00",
+        "updated_at": "2025-08-14T17:15:18.000-06:00",
+        "sensor_type_id": 7,
+        "sensor_type": {
+            "id": 7,
+            "name": "sensor tds",
+            "code": "tds",
+            "reading_interval": null,
+            "is_active": 1,
+            "created_at": "2025-08-14T17:14:40.000-06:00",
+            "updated_at": "2025-08-14T17:14:40.000-06:00"
+        },
+        "reading_interval": null
     }
 ]

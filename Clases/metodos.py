@@ -15,7 +15,7 @@ def obtener_uuid():
     return os.getenv("UUID")
 
 def obtener_dispositivos(uuid: str):
-    url = 'http://localhost:3333/getdevices'
+    url = 'https://integradora5to-adonis-back-end.onrender.com/getdevices'
     payload = {'uuid': uuid}
 
     try:
@@ -40,7 +40,7 @@ def guardar_dispositivos_json(dispositivos: list, archivo: str = 'Jsons_DATA/dev
     print(f"✅ Dispositivos guardados exitosamente en {archivo}")
 
 def obtener_configuraciones(uuid: str):
-    url = 'http://localhost:3333/getconfig'
+    url = 'https://integradora5to-adonis-back-end.onrender.com/getconfig'
     payload = {'uuid': uuid}
 
     try:
